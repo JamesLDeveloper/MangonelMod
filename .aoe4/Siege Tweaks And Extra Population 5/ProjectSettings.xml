@@ -8,8 +8,10 @@
 				<d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
 					<d2p1:Key>AssetExplorerGeneric</d2p1:Key>
 					<d2p1:Value>
+						<d2p1:string>assets\attrib\instances\ebps\races\hre</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ebps\races\lancaster\buildings</d2p1:string>
 						<d2p1:string>assets\attrib\instances\ebps\races\lancaster\units</d2p1:string>
+						<d2p1:string>assets\attrib\instances\sbps\races</d2p1:string>
 						<d2p1:string>assets\locdb</d2p1:string>
 					</d2p1:Value>
 				</d2p1:KeyValueOfstringArrayOfstringty7Ep6D1>
@@ -23,6 +25,7 @@
 	</PluginSettings>
 	<RecentFiles>
 		<History xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+			<d3p1:string>C:\Users\XPS\OneDrive\Documents\Age of Empires iv files\Siege Tweaks And Extra Population 5\assets\attrib\instances\sbps\races\english\unit_wynguard_army_eng.xml</d3p1:string>
 			<d3p1:string>C:\Users\XPS\OneDrive\Documents\Age of Empires iv files\Siege Tweaks And Extra Population 5\assets\attrib\instances\army\empirewars_mode\empirewars_abbasid.xml</d3p1:string>
 			<d3p1:string>C:\Users\XPS\OneDrive\Documents\Age of Empires iv files\Siege Tweaks And Extra Population 5\assets\attrib\instances\army\empirewars_mode\empirewars_english.xml</d3p1:string>
 			<d3p1:string>C:\Users\XPS\OneDrive\Documents\Age of Empires iv files\Siege Tweaks And Extra Population 5\assets\attrib\instances\ebps\races\abbasid\units\unit_trebuchet_4_cw_abb.xml</d3p1:string>
@@ -32,7 +35,6 @@
 			<d3p1:string>C:\Users\XPS\OneDrive\Documents\Age of Empires iv files\Siege Tweaks And Extra Population 5\assets\mod.rdo</d3p1:string>
 			<d3p1:string>C:\Users\XPS\OneDrive\Documents\Age of Empires iv files\Siege Tweaks And Extra Population 5\assets\attrib\instances\ebps\races\abbasid\units\unit_mangonel_3_abb.xml</d3p1:string>
 			<d3p1:string>C:\Users\XPS\OneDrive\Documents\Age of Empires iv files\Siege Tweaks And Extra Population 5\assets\attrib\instances\army\empirewars_mode\empirewars_templar.xml</d3p1:string>
-			<d3p1:string>C:\Users\XPS\OneDrive\Documents\Age of Empires iv files\Siege Tweaks And Extra Population 5\assets\attrib\instances\army\standard_mode\normal_abbasid.xml</d3p1:string>
 		</History>
 	</RecentFiles>
 </ProjectSettings>
