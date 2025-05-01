@@ -1,0 +1,348 @@
+<instance version="4" description="" template="army">
+	<uniqueid name="pbgid" value="2128956" />
+	<instance_reference name="parent_pbg" value="army\standard_mode\normal_chinese" />
+	<group name="army_bag" overrideParent="True">
+		<list name="starting_buildings">
+			<group name="starting_building" List.ItemID="-2001661904" List.ParentItemID="-2001661904">
+				<instance_reference name="building" value="ebps\races\mongol\buildings\building_town_center_dummy_start" overrideParent="True" />
+				<string name="key" value="default_mp" />
+				<list name="player_upgrades">
+				</list>
+			</group>
+		</list>
+		<enum_table name="resource_starting_amount">
+			<float name="food" value="300" overrideParent="True" />
+			<float name="wood" value="200" overrideParent="True" />
+			<float name="gold" value="150" overrideParent="True" />
+			<float name="action" value="0" />
+			<float name="command" value="0" />
+			<float name="popcap" value="0" />
+			<float name="stone" value="0" />
+			<float name="militia_hre" value="0" />
+			<float name="merc_byz" value="0" />
+		</enum_table>
+		<instance_reference name="starting_town" value="map_gen\town\map_gen_town\empirewars\empirewars_town_chinese" overrideParent="True" />
+		<list name="starting_units" overrideParent="True">
+			<instance_reference name="squad" value="sbps\races\chinese\unit_scout_1_chi" List.ItemID="1600891712" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_scout_1_chi" List.ItemID="-738943269" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="1344059411" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="-812538083" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="406123290" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="-1342305339" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="1170165592" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="1508299048" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="-2067786145" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="-2081256765" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="1026939073" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="1076644263" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="797272734" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="327986723" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="-1986920524" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="-374934058" />
+			<instance_reference name="squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="1425290898" />
+		</list>
+		<template_reference name="starting_units_spawner" value="options\spawn\fixed_offset">
+			<list name="spawn_positions" overrideParent="True">
+				<group name="position_offset" List.ItemID="-1797230544">
+					<float name="x" value="-15" overrideParent="True" />
+					<float name="y" value="-12" overrideParent="True" />
+				</group>
+				<group name="position_offset" List.ItemID="-1023225721">
+					<float name="x" value="-10" overrideParent="True" />
+					<float name="y" value="-10" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<group name="actions">
+			<string name="ability_ally_reinforcement_action_name" value="UI/command/coh2_troop_deployment_flag" />
+			<string name="ability_self_reinforcement_action_name" value="UI/command/coh2_troop_deployment_flag" />
+			<string name="ally_attack_here_action_name" value="UI/coh2_team_attack_here" />
+			<string name="ally_capture_here_action_name" value="UI/coh2_team_capture_here" />
+			<string name="ally_defend_here_action_name" value="UI/coh2_team_defend_here" />
+			<string name="fx_rally_point_action_name" value="ui/command/rally_point_order_loop" />
+			<string name="self_attack_here_action_name" value="" />
+			<string name="self_capture_here_action_name" value="" />
+			<string name="self_defend_here_action_name" value="" />
+			<string name="self_question_here_action_name" value="" />
+			<string name="ally_question_here_action_name" value="UI/coh2_team_question_here" />
+			<colour name="fx_rally_point_line_color_move" value="4293767680" />
+			<colour name="fx_rally_point_line_color_special" value="4285313770" />
+			<string name="fx_rally_point_action_name_special" value="ui/command/rally_point_order_loop_square" />
+			<string name="fx_rally_point_action_name_attack" value="ui/command/rally_point_order_loop_red" />
+			<colour name="fx_rally_point_line_color_attack" value="4294918455" />
+		</group>
+		<enum_table name="resource_income_cap">
+			<float name="action" value="20" />
+			<float name="command" value="3.402823E+38" />
+			<float name="popcap" value="3.402823E+38" />
+			<float name="food" value="3.402823E+38" />
+			<float name="wood" value="3.402823E+38" />
+			<float name="stone" value="3.402823E+38" />
+			<float name="gold" value="3.402823E+38" />
+			<float name="militia_hre" value="0" />
+			<float name="merc_byz" value="0" />
+		</enum_table>
+		<group name="race_population_cap_table">
+			<float name="base_medic_cap" value="0" />
+			<float name="base_personnel_cap" value="0" />
+			<float name="base_vehicle_cap" value="4" />
+			<float name="max_medic_cap" value="0" />
+			<float name="max_personnel_cap" value="280" />
+			<float name="max_vehicle_cap" value="8" />
+		</group>
+		<list name="abilities">
+		</list>
+		<enum_table name="resource_max_cap">
+			<float name="action" value="-1" />
+			<float name="command" value="10" />
+			<float name="popcap" value="280" />
+			<float name="food" value="100000" />
+			<float name="wood" value="100000" />
+			<float name="stone" value="100000" />
+			<float name="gold" value="100000" />
+			<float name="militia_hre" value="100000" />
+			<float name="merc_byz" value="0" />
+		</enum_table>
+		<string name="badge_path" value="DATA:\art\armies\west_german\badges\default_dif" />
+		<list name="production_buildings">
+		</list>
+		<group name="ai_production_info">
+			<list name="unlocking_upgrade_list">
+				<group name="unlocking_upgrade_info" List.ItemID="343034989" List.ParentItemID="343034989">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\english\units\upgrade_unit_manatarms_2_eng" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_manatarms_1_eng" List.ItemID="-102754290" List.ParentItemID="-102754290" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_manatarms_1" List.ItemID="328636965" List.ParentItemID="328636965" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="-1002825041" List.ParentItemID="-1002825041">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\english\units\upgrade_unit_manatarms_3_eng" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_manatarms_2_eng" List.ItemID="731001881" List.ParentItemID="731001881" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_manatarms_2" List.ItemID="-1024751994" List.ParentItemID="-1024751994" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="2081845338" List.ParentItemID="2081845338">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\english\units\upgrade_unit_manatarms_4_eng" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_manatarms_3_eng" List.ItemID="-923206393" List.ParentItemID="-923206393" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_manatarms_3" List.ItemID="1523685781" List.ParentItemID="1523685781" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="1071811320" List.ParentItemID="1071811320">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\english\units\upgrade_unit_archer_3_eng" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_archer_2_eng" List.ItemID="69286990" List.ParentItemID="69286990" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_archer_2" List.ItemID="1811484458" List.ParentItemID="1811484458" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="100187793" List.ParentItemID="100187793">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\english\units\upgrade_unit_archer_4_eng" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_archer_3_eng" List.ItemID="-940493083" List.ParentItemID="-940493083" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_archer_3" List.ItemID="-48427254" List.ParentItemID="-48427254" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="1924429678" List.ParentItemID="1924429678">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\common\units\upgrade_unit_horseman_3" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_horseman_2_eng" List.ItemID="-1126201736" List.ParentItemID="-1126201736" />
+						<instance_reference name="upgraded_squad" value="sbps\races\french\unit_horseman_2_fre" List.ItemID="1123489604" List.ParentItemID="1123489604" />
+						<instance_reference name="upgraded_squad" value="sbps\races\rus\unit_horseman_2_rus" List.ItemID="1257754310" List.ParentItemID="1257754310" />
+						<instance_reference name="upgraded_squad" value="sbps\races\hre\unit_horseman_2_hre" List.ItemID="-1447908300" List.ParentItemID="-1447908300" />
+						<instance_reference name="upgraded_squad" value="sbps\races\mongol\unit_horseman_2_mon" List.ItemID="24847217" List.ParentItemID="24847217" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_horseman_2" List.ItemID="-2123079383" List.ParentItemID="-2123079383" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="726801718" List.ParentItemID="726801718">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\common\units\upgrade_unit_horseman_4" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_horseman_3_eng" List.ItemID="145650331" List.ParentItemID="145650331" />
+						<instance_reference name="upgraded_squad" value="sbps\races\french\unit_horseman_3_fre" List.ItemID="-276134435" List.ParentItemID="-276134435" />
+						<instance_reference name="upgraded_squad" value="sbps\races\rus\unit_horseman_3_rus" List.ItemID="-127986622" List.ParentItemID="-127986622" />
+						<instance_reference name="upgraded_squad" value="sbps\races\hre\unit_horseman_3_hre" List.ItemID="1734669282" List.ParentItemID="1734669282" />
+						<instance_reference name="upgraded_squad" value="sbps\races\mongol\unit_horseman_3_mon" List.ItemID="-1371294909" List.ParentItemID="-1371294909" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_horseman_3" List.ItemID="-1565217215" List.ParentItemID="-1565217215" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="1871894850" List.ParentItemID="1871894850">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\english\units\upgrade_unit_spearman_3_eng" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_spearman_2_eng" List.ItemID="1143147396" List.ParentItemID="1143147396" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_spearman_2" List.ItemID="-206492716" List.ParentItemID="-206492716" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="-1050061166" List.ParentItemID="-1050061166">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\english\units\upgrade_unit_spearman_4_eng" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_spearman_3_eng" List.ItemID="-1830228770" List.ParentItemID="-1830228770" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_spearman_3" List.ItemID="-1829584032" List.ParentItemID="-1829584032" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="-1518110016" List.ParentItemID="-1518110016">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\common\units\upgrade_unit_knight_4" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_knight_3_eng" List.ItemID="-1942206584" List.ParentItemID="-1942206584" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_knight_3" List.ItemID="2045809703" List.ParentItemID="2045809703" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="2108693502" List.ParentItemID="2108693502">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\common\units\upgrade_unit_crossbowman_4" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_crossbowman_3_eng" List.ItemID="-974125153" List.ParentItemID="-974125153" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_crossbowman_3" List.ItemID="1848590958" List.ParentItemID="1848590958" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="-1239610233" List.ParentItemID="-1239610233">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\common\research\economy\upgrade_econ_resource_food_harvest_rate_2" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="1586691475" List.ParentItemID="1586691475" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="-684280272" List.ParentItemID="-684280272">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\common\research\economy\upgrade_econ_resource_food_harvest_rate_3" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="-1777689966" List.ParentItemID="-1777689966" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="-1241757637" List.ParentItemID="-1241757637">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\common\research\economy\upgrade_econ_resource_food_harvest_rate_4" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="" />
+					<list name="upgraded_squads">
+						<instance_reference name="upgraded_squad" value="sbps\races\chinese\unit_villager_1_chi" List.ItemID="-1385541144" List.ParentItemID="-1385541144" />
+					</list>
+				</group>
+			</list>
+			<list name="loadouts">
+			</list>
+		</group>
+		<list name="team_size_point_resource_multiplier">
+		</list>
+		<list name="field_support_production_styles">
+		</list>
+		<state_tree_node name="start_actions_statetree" value="civ_start\Chinese" />
+		<list name="upgrades">
+		</list>
+		<group name="ui">
+			<list name="global_traits_summary">
+				<group name="trait" comment="Civilization Bonuses" List.ItemID="1544755217" List.ParentItemID="1544755217">
+					<file name="image" value="races\civ_info_icon" />
+					<locstring name="title" value="11197932" />
+					<locstring name="description" value="0" />
+					<template_reference name="description_formatter" value="ui_text_formatter">
+						<list name="formatter_arguments">
+							<int name="int_value" value="30" List.ItemID="-1721287049" List.ParentItemID="-1721287049" />
+							<int name="int_value" value="50" List.ItemID="721577946" List.ParentItemID="721577946" />
+							<int name="int_value" value="100" List.ItemID="1666325319" List.ParentItemID="1666325319" />
+							<int name="int_value" value="10" List.ItemID="1700008315" List.ParentItemID="1700008315" />
+						</list>
+						<locstring name="formatter" value="11261122" />
+					</template_reference>
+				</group>
+				<group name="trait" comment="Great Dynasties" List.ItemID="1478260744" List.ParentItemID="1478260744">
+					<locstring name="title" value="11155090" />
+					<locstring name="description" value="0" />
+					<file name="image" value="races\civ_info_icon-2" />
+					<template_reference name="description_formatter" value="ui_text_formatter">
+						<list name="formatter_arguments">
+							<int name="int_value" value="30" List.ItemID="1769595331" List.ParentItemID="1769595331" />
+							<int name="int_value" value="33" List.ItemID="-1760458301" List.ParentItemID="-1760458301" />
+							<int name="int_value" value="15" List.ItemID="-365498713" List.ParentItemID="-365498713" />
+							<int name="int_value" value="15" List.ItemID="1339945727" List.ParentItemID="1339945727" />
+						</list>
+						<locstring name="formatter" value="11265618" />
+					</template_reference>
+				</group>
+				<group name="trait" comment="Rapid Fabrications" List.ItemID="-266821212" List.ParentItemID="-266821212">
+					<locstring name="title" value="11227058" />
+					<locstring name="description" value="0" />
+					<file name="image" value="races\civ_info_icon-2" />
+					<template_reference name="description_formatter" value="ui_text_formatter">
+						<list name="formatter_arguments">
+							<int name="int_value" value="50" List.ItemID="-1871736779" List.ParentItemID="-1871736779" />
+							<int name="int_value" value="100" List.ItemID="-229160327" List.ParentItemID="-229160327" />
+							<int name="int_value" value="10" List.ItemID="-1991809760" List.ParentItemID="-1991809760" />
+						</list>
+						<locstring name="formatter" value="11257952" />
+					</template_reference>
+				</group>
+				<group name="trait" comment="Masters of Gunpowder" List.ItemID="966058155" List.ParentItemID="966058155">
+					<locstring name="title" value="11227061" />
+					<locstring name="description" value="11227060" />
+					<file name="image" value="races\civ_info_icon-2" />
+					<template_reference name="description_formatter" value="">
+					</template_reference>
+				</group>
+				<group name="trait" comment="Taxes" List.ItemID="-1270894026" List.ParentItemID="-1270894026">
+					<locstring name="title" value="11227063" />
+					<locstring name="description" value="11227062" />
+					<file name="image" value="races\civ_info_icon" />
+					<template_reference name="description_formatter" value="">
+					</template_reference>
+				</group>
+				<group name="trait" comment="Influence" List.ItemID="-104609481" List.ParentItemID="-104609481">
+					<locstring name="title" value="11227065" />
+					<locstring name="description" value="11227064" />
+					<file name="image" value="races\civ_info_icon-2" />
+					<template_reference name="description_formatter" value="">
+					</template_reference>
+				</group>
+				<group name="trait" comment="Unique Units" List.ItemID="-835119664" List.ParentItemID="-835119664">
+					<locstring name="title" value="11155092" />
+					<locstring name="description" value="11227066" />
+					<file name="image" value="races\civ_info_icon" />
+					<template_reference name="description_formatter" value="">
+					</template_reference>
+				</group>
+			</list>
+			<locstring name="subheader" value="11155082" />
+			<locstring name="one_liner" value="11217953" />
+			<file name="background_image" value="civ_flags\flag_chinese" />
+			<int name="difficulty" value="3" />
+			<enum name="research_upgrade" value="chinese_upgrade" />
+		</group>
+		<bool name="check_pop_cap_when_queuing_production_item" value="False" />
+		<group name="casualties">
+			<float name="guaranteed_casualty_per_number_of_deaths" value="5" />
+			<int name="max_rescued_casualty_count" value="100" />
+		</group>
+		<enum_table name="upkeep_per_pop_per_minute_override">
+			<float name="action" value="0" />
+			<float name="command" value="0" />
+			<float name="popcap" value="0" />
+			<float name="food" value="0" />
+			<float name="wood" value="0" />
+			<float name="stone" value="0" />
+			<float name="gold" value="0" />
+			<float name="militia_hre" value="0" />
+			<float name="merc_byz" value="0" />
+		</enum_table>
+	</group>
+</instance>

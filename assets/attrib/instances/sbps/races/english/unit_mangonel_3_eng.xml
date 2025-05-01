@@ -1,0 +1,232 @@
+<instance version="6" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="1627760721" List.ParentItemID="1627760721">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="1549991796" List.ParentItemID="1549991796">
+					<group name="info">
+						<string name="sound" value="sfx_ui_produce_unit_click" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="108014063" List.ParentItemID="108014063">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-271303557">
+					<float name="num" value="2" overrideParent="True" />
+					<instance_reference name="type" value="ebps\races\english\units\unit_mangonel_3_eng" />
+					<list name="unit_attachments" overrideParent="True">
+						<group name="unit" List.ItemID="210375920">
+							<instance_reference name="type" value="ebps\dev\units\unit_siege_cart" overrideParent="True" />
+							<string name="marker" value="mkr_attach" overrideParent="True" />
+						</group>
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1325491857" List.ParentItemID="1325491857">
+			<list name="requirement_table" overrideParent="True">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="736324284">
+					<enum name="reason" value="usage" overrideParent="True" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+					<bool name="include_completed" value="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="1699780273" List.ParentItemID="1699780273">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="-2010679193" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="183719508" List.ParentItemID="183719508">
+			<group name="squad_speech_parameters">
+				<string name="squad_class_code" value="seige_ranged" overrideParent="True" />
+				<string name="squad_name_code" value="mangonel" overrideParent="True" />
+				<string name="squad_unit_code" value="mounted" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="134431530" List.ParentItemID="134431530">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="166407" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_mangonel_3" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-1516947936" List.ParentItemID="-1516947936">
+				<list name="race_list">
+					<group name="race_data" List.ItemID="2100249121" List.ParentItemID="2100249121">
+						<group name="info">
+							<string name="sound" value="sfx_ui_produce_unit_click" overrideParent="True" />
+						</group>
+					</group>
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-560988483" List.ParentItemID="-560988483">
+				<list name="unit_list">
+					<group name="loadout_data" List.ItemID="-1345711134">
+						<float name="num" value="1" />
+						<instance_reference name="type" value="ebps\races\english\units\unit_mangonel_3_eng" />
+						<list name="unit_attachments" overrideParent="True">
+							<group name="unit" List.ItemID="-1999650036">
+								<instance_reference name="type" value="ebps\dev\units\unit_siege_cart" overrideParent="True" />
+								<string name="marker" value="mkr_attach" overrideParent="True" />
+							</group>
+						</list>
+						<bool name="is_default_unit" value="True" />
+					</group>
+				</list>
+				<float name="squad_female_chance" value="0" />
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-721496215" List.ParentItemID="-721496215">
+				<list name="requirement_table" overrideParent="True">
+					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="102690183">
+						<enum name="reason" value="usage" overrideParent="True" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<int name="max_completed" value="100" />
+						<int name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
+						<bool name="include_queued" value="False" />
+						<group name="include_pbg_parenting">
+							<bool name="include_child_pbgs" value="False" />
+							<bool name="include_parent_pbgs" value="False" />
+						</group>
+						<bool name="include_completed" value="True" />
+					</template_reference>
+					<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-173734546">
+						<enum name="reason" value="usage_and_display" overrideParent="True" />
+						<locstring name="ui_name" value="0" />
+						<list name="requirements" overrideParent="True">
+							<template_reference name="requirement" value="requirements\required_not" List.ItemID="-1051787399">
+								<enum name="reason" value="usage" />
+								<locstring name="ui_name" value="0" />
+								<list name="requirement_table" overrideParent="True">
+									<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-1289522390">
+										<enum name="reason" value="usage" />
+										<locstring name="ui_name" value="0" />
+										<enum name="unit_type" value="castle" overrideParent="True" />
+										<template_reference name="qualify_option" value="options\none">
+										</template_reference>
+										<bool name="search_load_out" value="False" />
+									</template_reference>
+								</list>
+							</template_reference>
+							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="27846621">
+								<enum name="reason" value="usage" />
+								<locstring name="ui_name" value="0" />
+								<bool name="is_present" value="True" />
+								<int name="max_completed" value="100" />
+								<int name="min_completed" value="1" />
+								<instance_reference name="upgrade_name" value="upgrade\races\english\research\upgrade_keep_production_eng" overrideParent="True" />
+								<bool name="include_completed" value="True" />
+								<bool name="include_queued" value="False" />
+								<group name="include_pbg_parenting">
+									<bool name="include_child_pbgs" value="False" />
+									<bool name="include_parent_pbgs" value="False" />
+								</group>
+							</template_reference>
+						</list>
+					</template_reference>
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-279860070" List.ParentItemID="-279860070">
+				<list name="squad_race_type_list" overrideParent="True">
+					<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="1456449691" />
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="974044288" List.ParentItemID="974044288">
+				<group name="squad_speech_parameters">
+					<string name="squad_class_code" value="seige_ranged" overrideParent="True" />
+					<string name="squad_name_code" value="mangonel" overrideParent="True" />
+					<string name="squad_unit_code" value="mounted" overrideParent="True" />
+				</group>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="1358782723" List.ParentItemID="1358782723">
+				<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="166407" />
+		<instance_reference name="parent_pbg" value="sbps\races\core\unit_mangonel_3" />
+	</variant>
+	<variant name="xp3">
+		<list name="extensions">
+			<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="1627760721" List.ParentItemID="1627760721">
+				<list name="race_list">
+					<group name="race_data" List.ItemID="1549991796" List.ParentItemID="1549991796">
+						<group name="info">
+							<string name="sound" value="sfx_ui_produce_unit_click" overrideParent="True" />
+						</group>
+					</group>
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="108014063" List.ParentItemID="108014063">
+				<list name="unit_list">
+					<group name="loadout_data" List.ItemID="1731386764">
+						<float name="num" value="1" />
+						<instance_reference name="type" value="ebps\races\english\units\unit_mangonel_3_eng" />
+						<list name="unit_attachments" overrideParent="True">
+							<group name="unit" List.ItemID="939665632">
+								<instance_reference name="type" value="ebps\dev\units\unit_siege_cart" overrideParent="True" />
+								<string name="marker" value="mkr_attach" overrideParent="True" />
+							</group>
+						</list>
+						<bool name="is_default_unit" value="True" />
+					</group>
+				</list>
+				<float name="squad_female_chance" value="0" />
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1325491857" List.ParentItemID="1325491857">
+				<list name="requirement_table" overrideParent="True">
+					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="124951150">
+						<enum name="reason" value="usage" overrideParent="True" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<int name="max_completed" value="100" />
+						<int name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
+						<bool name="include_queued" value="False" />
+						<group name="include_pbg_parenting">
+							<bool name="include_child_pbgs" value="False" />
+							<bool name="include_parent_pbgs" value="False" />
+						</group>
+						<bool name="include_completed" value="True" />
+					</template_reference>
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="1699780273" List.ParentItemID="1699780273">
+				<list name="squad_race_type_list" overrideParent="True">
+					<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="479000125" />
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="183719508" List.ParentItemID="183719508">
+				<group name="squad_speech_parameters">
+					<string name="squad_class_code" value="seige_ranged" overrideParent="True" />
+					<string name="squad_name_code" value="mangonel" overrideParent="True" />
+					<string name="squad_unit_code" value="mounted" overrideParent="True" />
+				</group>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="134431530" List.ParentItemID="134431530">
+				<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="166407" />
+		<instance_reference name="parent_pbg" value="sbps\races\core\unit_mangonel_3" />
+	</variant>
+</instance>

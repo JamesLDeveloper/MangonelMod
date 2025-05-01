@@ -1,0 +1,28 @@
+<DataWarehouse>
+	<!--Mod/-->
+	<DataObject Name="Siege Tweaks And Extra Population 5" Type="Mod" Id="7172269637683649615" Version="1">
+		<DataProperty Name="m_description" Type="Object">
+			<DataValue Name="util::ReflectLocString">9029534448092622848</DataValue>
+			<!--Mod/util::ReflectLocString/-->
+			<DataObject Name="" Type="util::ReflectLocString" Id="9029534448092622848" OwnerId="7172269637683649615">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="3487997329"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="3669537299"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="1070248013"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1173323899"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="2"/>
+			</DataObject>
+		</DataProperty>
+		<DataProperty Name="m_name" Type="Object">
+			<DataValue Name="util::ReflectLocString">180609645494186779</DataValue>
+			<!--Mod/util::ReflectLocString/-->
+			<DataObject Name="" Type="util::ReflectLocString" Id="180609645494186779" OwnerId="7172269637683649615">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="3487997329"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="3669537299"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="1070248013"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1173323899"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="1"/>
+			</DataObject>
+		</DataProperty>
+	</DataObject>
+</DataWarehouse>
+

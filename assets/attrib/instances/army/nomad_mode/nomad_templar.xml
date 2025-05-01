@@ -1,0 +1,24 @@
+<instance version="4" description="" template="army">
+	<group name="army_bag">
+		<list name="starting_buildings">
+			<group name="starting_building" List.ItemID="789991081" List.ParentItemID="789991081">
+				<instance_reference name="building" value="ebps\races\mongol\buildings\building_town_center_dummy_start" overrideParent="True" />
+			</group>
+		</list>
+		<list name="starting_units" removedIds="-1013615588, -779926824, -1958503648, 1859738775, -554038919, 1211801163, 827466618">
+			<instance_reference name="squad" value="sbps\races\templar\unit_villager_1_tem" overrideParent="True" List.ItemID="475951221" List.ParentItemID="475951221" />
+		</list>
+		<template_reference name="starting_units_spawner" value="options\spawn\scatter" overrideParent="True">
+			<float name="separation" value="250" />
+			<int name="spawn_position_number" value="6" overrideParent="True" />
+			<int name="min_clearance" value="11" />
+			<float name="map_border" value="0" />
+			<int name="node_limit" value="10000" />
+			<bool name="use_random_rotation" value="True" />
+			<int name="random_start_attempts" value="50" />
+			<bool name="use_early_out_optimization" value="False" />
+		</template_reference>
+	</group>
+	<uniqueid name="pbgid" value="9001597" />
+	<instance_reference name="parent_pbg" value="army\standard_mode\normal_templar" />
+</instance>

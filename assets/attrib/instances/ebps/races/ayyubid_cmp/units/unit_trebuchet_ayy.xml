@@ -1,0 +1,44 @@
+<instance version="6" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-422500858" List.ParentItemID="-422500858">
+			<bool name="browsable_in_editor" value="False" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="987752469" List.ParentItemID="987752469">
+			<list name="race_type_list">
+				<instance_reference name="race_type" value="racebps\campaign_xp3\ayyubid_cmp" overrideParent="True" List.ItemID="810503615" List.ParentItemID="810503615" />
+			</list>
+			<list name="attack_target_restriction_on_victim" overrideParent="True">
+				<enum name="unit_type" value="villager" List.ItemID="1195131241" />
+				<enum name="unit_type" value="land_military" List.ItemID="-1820122274" />
+				<enum name="unit_type" value="trade_camel" List.ItemID="-1773149369" />
+				<enum name="unit_type" value="ship" List.ItemID="871299572" />
+				<enum name="unit_type" value="animal" List.ItemID="-1287621302" />
+				<enum name="unit_type" value="monk" List.ItemID="-1632008648" />
+				<enum name="unit_type" value="naval_unit" List.ItemID="-491465541" />
+				<enum name="unit_type" value="scout" List.ItemID="-1234984503" />
+				<enum name="unit_type" value="trade_cart" List.ItemID="-278423746" />
+				<enum name="unit_type" value="trade_caravan" List.ItemID="192019447" />
+				<enum name="unit_type" value="trade_cart_rider" List.ItemID="1037005812" />
+				<enum name="unit_type" value="villager_militarized" List.ItemID="-692941050" />
+				<enum name="unit_type" value="wolf" List.ItemID="-758915969" />
+				<enum name="unit_type" value="age_up_producer" List.ItemID="-663838946" />
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2103405" />
+	<instance_reference name="parent_pbg" value="ebps\races\abbasid\units\unit_trebuchet_4_cw_abb" />
+	<variant name="xp3">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-422500858" List.ParentItemID="-422500858">
+				<bool name="browsable_in_editor" value="False" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="987752469" List.ParentItemID="987752469">
+				<list name="race_type_list">
+					<instance_reference name="race_type" value="racebps\campaign_xp3\ayyubid_cmp" overrideParent="True" List.ItemID="810503615" List.ParentItemID="810503615" />
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="2103405" />
+		<instance_reference name="parent_pbg" value="ebps\races\abbasid\units\unit_trebuchet_4_cw_abb" />
+	</variant>
+</instance>

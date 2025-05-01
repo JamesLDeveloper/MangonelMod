@@ -1,0 +1,193 @@
+<instance version="6" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="1145231595" List.ParentItemID="1145231595">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1098454170">
+					<float name="num" value="2" overrideParent="True" />
+					<instance_reference name="type" value="ebps\races\english\units\unit_springald_3_eng" />
+					<list name="unit_attachments">
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1668267908" List.ParentItemID="1668267908">
+			<list name="requirement_table" comment="Requires castle age&#xD;&#xA;" overrideParent="True">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1898865839">
+					<enum name="reason" value="usage" overrideParent="True" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<int name="max_completed" value="100" />
+					<int name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
+					<bool name="include_queued" value="False" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+					<bool name="include_completed" value="True" />
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="204584753" List.ParentItemID="204584753">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="-1246673977" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="830839367" List.ParentItemID="830839367">
+			<group name="squad_speech_parameters">
+				<string name="squad_class_code" value="seige_ranged" overrideParent="True" />
+				<string name="squad_name_code" value="springald" overrideParent="True" />
+				<string name="squad_unit_code" value="mounted" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1623605007" List.ParentItemID="-1623605007">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="166411" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_springald_3" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="2145248920" List.ParentItemID="2145248920">
+				<list name="unit_list">
+					<group name="loadout_data" List.ItemID="-609935573">
+						<float name="num" value="1" />
+						<instance_reference name="type" value="ebps\races\english\units\unit_springald_3_eng" />
+						<list name="unit_attachments">
+						</list>
+						<bool name="is_default_unit" value="True" />
+					</group>
+				</list>
+				<float name="squad_female_chance" value="0" />
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-1039179709" List.ParentItemID="-1039179709">
+				<list name="requirement_table" comment="Requires castle age&#xD;&#xA;" overrideParent="True">
+					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1920247944">
+						<enum name="reason" value="usage" overrideParent="True" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<int name="max_completed" value="100" />
+						<int name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
+						<bool name="include_queued" value="False" />
+						<group name="include_pbg_parenting">
+							<bool name="include_child_pbgs" value="False" />
+							<bool name="include_parent_pbgs" value="False" />
+						</group>
+						<bool name="include_completed" value="True" />
+					</template_reference>
+					<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="1092767262">
+						<enum name="reason" value="usage_and_display" overrideParent="True" />
+						<locstring name="ui_name" value="0" />
+						<list name="requirements" overrideParent="True">
+							<template_reference name="requirement" value="requirements\required_not" List.ItemID="-1403876691">
+								<enum name="reason" value="usage" />
+								<locstring name="ui_name" value="0" />
+								<list name="requirement_table" overrideParent="True">
+									<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-850015880">
+										<enum name="reason" value="usage" />
+										<locstring name="ui_name" value="0" />
+										<enum name="unit_type" value="castle" overrideParent="True" />
+										<template_reference name="qualify_option" value="options\none">
+										</template_reference>
+										<bool name="search_load_out" value="False" />
+									</template_reference>
+								</list>
+							</template_reference>
+							<template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="1769492446">
+								<enum name="reason" value="usage" />
+								<locstring name="ui_name" value="0" />
+								<bool name="is_present" value="True" />
+								<int name="max_completed" value="100" />
+								<int name="min_completed" value="1" />
+								<instance_reference name="upgrade_name" value="upgrade\races\english\research\upgrade_keep_production_eng" overrideParent="True" />
+								<bool name="include_completed" value="True" />
+								<bool name="include_queued" value="False" />
+								<group name="include_pbg_parenting">
+									<bool name="include_child_pbgs" value="False" />
+									<bool name="include_parent_pbgs" value="False" />
+								</group>
+							</template_reference>
+						</list>
+					</template_reference>
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="750036534" List.ParentItemID="750036534">
+				<list name="squad_race_type_list" overrideParent="True">
+					<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="-42224817" />
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="166526191" List.ParentItemID="166526191">
+				<group name="squad_speech_parameters">
+					<string name="squad_class_code" value="seige_ranged" overrideParent="True" />
+					<string name="squad_name_code" value="springald" overrideParent="True" />
+					<string name="squad_unit_code" value="mounted" overrideParent="True" />
+				</group>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1533418465" List.ParentItemID="-1533418465">
+				<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="166411" />
+		<instance_reference name="parent_pbg" value="sbps\races\core\unit_springald_3" />
+	</variant>
+	<variant name="xp3">
+		<list name="extensions">
+			<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="1145231595" List.ParentItemID="1145231595">
+				<list name="unit_list">
+					<group name="loadout_data" List.ItemID="-415193858">
+						<float name="num" value="1" />
+						<instance_reference name="type" value="ebps\races\english\units\unit_springald_3_eng" />
+						<list name="unit_attachments">
+						</list>
+						<bool name="is_default_unit" value="True" />
+					</group>
+				</list>
+				<float name="squad_female_chance" value="0" />
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1668267908" List.ParentItemID="1668267908">
+				<list name="requirement_table" comment="Requires castle age&#xD;&#xA;" overrideParent="True">
+					<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1900092428">
+						<enum name="reason" value="usage" overrideParent="True" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<int name="max_completed" value="100" />
+						<int name="min_completed" value="1" />
+						<instance_reference name="upgrade_name" value="upgrade\dev\ages\castle_age" />
+						<bool name="include_queued" value="False" />
+						<group name="include_pbg_parenting">
+							<bool name="include_child_pbgs" value="False" />
+							<bool name="include_parent_pbgs" value="False" />
+						</group>
+						<bool name="include_completed" value="True" />
+					</template_reference>
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="204584753" List.ParentItemID="204584753">
+				<list name="squad_race_type_list" overrideParent="True">
+					<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="1523337269" />
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="830839367" List.ParentItemID="830839367">
+				<group name="squad_speech_parameters">
+					<string name="squad_class_code" value="seige_ranged" overrideParent="True" />
+					<string name="squad_name_code" value="springald" overrideParent="True" />
+					<string name="squad_unit_code" value="mounted" overrideParent="True" />
+				</group>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1623605007" List.ParentItemID="-1623605007">
+				<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="166411" />
+		<instance_reference name="parent_pbg" value="sbps\races\core\unit_springald_3" />
+	</variant>
+</instance>

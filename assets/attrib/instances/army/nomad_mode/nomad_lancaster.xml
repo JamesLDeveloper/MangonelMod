@@ -1,0 +1,28 @@
+<instance version="4" description="" template="army">
+	<group name="army_bag">
+		<list name="starting_buildings">
+			<group name="starting_building" List.ItemID="789991081" List.ParentItemID="789991081">
+				<instance_reference name="building" value="ebps\races\mongol\buildings\building_town_center_dummy_start" overrideParent="True" />
+			</group>
+		</list>
+		<list name="starting_units" removedIds="827466618, 318427289, -1047055675, 1859738775, -1958503648, -779926824, 475951221">
+			<instance_reference name="squad" value="sbps\races\lancaster\unit_villager_1_nomad_lan" overrideParent="True" List.ItemID="517413022" List.ParentItemID="517413022" />
+			<instance_reference name="squad" value="sbps\races\lancaster\unit_villager_1_nomad_lan" overrideParent="True" List.ItemID="-1380598251" List.ParentItemID="-1380598251" />
+			<instance_reference name="squad" value="sbps\races\lancaster\unit_villager_1_nomad_lan" overrideParent="True" List.ItemID="-1439702233" List.ParentItemID="-1439702233" />
+			<instance_reference name="squad" value="sbps\races\lancaster\unit_villager_1_nomad_lan" overrideParent="True" List.ItemID="-1601320736" List.ParentItemID="-1601320736" />
+			<instance_reference name="squad" value="sbps\races\lancaster\unit_villager_1_nomad_lan" overrideParent="True" List.ItemID="-1013615588" List.ParentItemID="-1013615588" />
+		</list>
+		<template_reference name="starting_units_spawner" value="options\spawn\scatter" overrideParent="True">
+			<float name="separation" value="250" />
+			<int name="spawn_position_number" value="6" />
+			<int name="min_clearance" value="11" />
+			<float name="map_border" value="0" />
+			<int name="node_limit" value="10000" />
+			<bool name="use_random_rotation" value="True" />
+			<int name="random_start_attempts" value="50" />
+			<bool name="use_early_out_optimization" value="False" />
+		</template_reference>
+	</group>
+	<uniqueid name="pbgid" value="9001598" />
+	<instance_reference name="parent_pbg" value="army\standard_mode\normal_lancaster" />
+</instance>

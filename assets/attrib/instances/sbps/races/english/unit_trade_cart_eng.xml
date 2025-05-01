@@ -1,0 +1,84 @@
+<instance version="6" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-1530163112" List.ParentItemID="-1530163112">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-1478835855">
+					<float name="num" value="1" overrideParent="True" />
+					<instance_reference name="type" value="ebps\races\english\units\unit_trade_cart_eng" />
+					<list name="unit_attachments" overrideParent="True">
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="683879184" List.ParentItemID="683879184">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="440340502" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="368437707" List.ParentItemID="368437707">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="464355600" List.ParentItemID="464355600">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\non_formation_land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="166422" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_trade_cart" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="145308831" List.ParentItemID="145308831">
+				<list name="unit_list">
+					<group name="loadout_data" List.ItemID="767775548">
+						<float name="num" value="1" />
+						<instance_reference name="type" value="ebps\races\english\units\unit_trade_cart_eng" />
+						<list name="unit_attachments" overrideParent="True">
+						</list>
+						<bool name="is_default_unit" value="True" />
+					</group>
+				</list>
+				<float name="squad_female_chance" value="0" />
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-1838698246" List.ParentItemID="-1838698246">
+				<list name="squad_race_type_list" overrideParent="True">
+					<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="1819060277" />
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1987043168" List.ParentItemID="-1987043168">
+				<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\non_formation_land_box_fill_spot_generator" overrideParent="True" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="166422" />
+		<instance_reference name="parent_pbg" value="sbps\races\core\unit_trade_cart" />
+	</variant>
+	<variant name="xp3">
+		<list name="extensions">
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-1530163112" List.ParentItemID="-1530163112">
+				<list name="unit_list">
+					<group name="loadout_data" List.ItemID="-682044246">
+						<float name="num" value="1" />
+						<instance_reference name="type" value="ebps\races\english\units\unit_trade_cart_eng" />
+						<list name="unit_attachments" overrideParent="True">
+						</list>
+						<bool name="is_default_unit" value="True" />
+					</group>
+				</list>
+				<float name="squad_female_chance" value="0" />
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="683879184" List.ParentItemID="683879184">
+				<list name="squad_race_type_list" overrideParent="True">
+					<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="2009547659" />
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="368437707" List.ParentItemID="368437707">
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="464355600" List.ParentItemID="464355600">
+				<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\non_formation_land_box_fill_spot_generator" overrideParent="True" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="166422" />
+		<instance_reference name="parent_pbg" value="sbps\races\core\unit_trade_cart" />
+	</variant>
+</instance>
