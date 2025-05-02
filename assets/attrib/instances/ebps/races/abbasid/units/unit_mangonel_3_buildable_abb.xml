@@ -3,6 +3,7 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1152503433" List.ParentItemID="-1152503433">
 			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\abbasid\units\unit_mangonel_3_abb" overrideParent="True" />
 			<bool name="browsable_in_editor" value="False" overrideParent="True" />
+			<float name="entity_scale" value="80" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-374269154" List.ParentItemID="-374269154">
 			<list name="action_state_trees">

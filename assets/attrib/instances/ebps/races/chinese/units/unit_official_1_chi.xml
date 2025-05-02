@@ -98,7 +98,7 @@
 			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_official_1" overrideParent="True" />
 			<float name="animator_scale" value="122" />
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
-			<float name="entity_scale" value="70" overrideParent="True" />
+			<float name="entity_scale" value="80" overrideParent="True" />
 			<enum name="subclass_type" value="Unit" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sim_entity_ext" List.ItemID="1062926015">

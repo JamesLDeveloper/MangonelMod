@@ -1,7 +1,7 @@
 <instance version="4" description="" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-361112062" List.ParentItemID="-361112062">
-			<float name="entity_scale" value="70" overrideParent="True" />
+			<float name="entity_scale" value="80" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-2077139315" List.ParentItemID="-2077139315">
 			<list name="tier_group_list">

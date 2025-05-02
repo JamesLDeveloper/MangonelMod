@@ -47,7 +47,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-2009320517" List.ParentItemID="-2009320517">
-			<float name="entity_scale" value="70" overrideParent="True" />
+			<float name="entity_scale" value="80" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-638902394" List.ParentItemID="-638902394">
 			<group name="time_cost">

@@ -3,7 +3,7 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="803033353" List.ParentItemID="803033353">
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\byzantine\units\unit_spearman_3_byz" overrideParent="True" />
-			<float name="entity_scale" value="70" overrideParent="True" />
+			<float name="entity_scale" value="80" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-623852692" List.ParentItemID="-623852692">
 			<list name="action_state_trees">

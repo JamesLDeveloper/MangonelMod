@@ -12,7 +12,7 @@
 			<bool name="is_wreck" value="False" />
 			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_trade_cart_camel" />
 			<float name="animator_scale" value="122" />
-			<float name="entity_scale" value="56" />
+			<float name="entity_scale" value="80" />
 			<enum name="subclass_type" value="Generic" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sim_entity_ext" List.ItemID="-1243624107" List.ParentItemID="-1155758028">

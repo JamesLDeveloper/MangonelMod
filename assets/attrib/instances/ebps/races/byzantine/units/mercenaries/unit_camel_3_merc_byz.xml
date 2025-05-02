@@ -16,7 +16,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="452991839" List.ParentItemID="452991839">
-			<float name="entity_scale" value="70" overrideParent="True" />
+			<float name="entity_scale" value="80" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1316018211" List.ParentItemID="1316018211">
 			<template_reference name="kill_action_tree" value="state_tree_reference_info">

@@ -1,7 +1,7 @@
 <instance version="4" description="Imperial Age Man-at-arms" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-765163162" List.ParentItemID="-765163162">
-			<float name="entity_scale" value="70" overrideParent="True" />
+			<float name="entity_scale" value="80" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-487488271" List.ParentItemID="-487488271">
 			<list name="abilities" removedIds="1943519319">

@@ -1,0 +1,319 @@
+<instance version="6" description="French Trade Cart" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1291264015" List.ParentItemID="-1291264015">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			<float name="entity_scale" value="80" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-685505201" List.ParentItemID="-685505201">
+			<list name="abilities" overrideParent="True">
+				<instance_reference name="ability" value="abilities\modal_abilities\core\trade_restart" List.ItemID="766453591" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\french\toggle_trade_resource_food_fre" overrideParent="True" List.ItemID="356710070" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\french\toggle_trade_resource_wood_fre" overrideParent="True" List.ItemID="995204503" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\french\trade_resource_modifiers_fre" List.ItemID="-450073453" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\french\passives\market_passive_gold_generation_fre" List.ItemID="896804111" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="257961566" List.ParentItemID="257961566">
+			<list name="action_state_trees" overrideParent="True">
+				<group name="container" List.ItemID="305955762">
+					<string name="state_tree" value="unit_action_apply\units\trade_cart" />
+				</group>
+				<group name="container" List.ItemID="60320613">
+					<string name="state_tree" value="unit_action_apply\units\trade_cart\audio\fre" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-26664171" List.ParentItemID="-26664171">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\french" List.ItemID="884113546" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-1290137626" List.ParentItemID="-1290137626">
+			<enum_table name="speed_levels">
+				<float name="speed_level_3" value="6.3" overrideParent="True" />
+				<float name="speed_level_4" value="6.3" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-1178329849" List.ParentItemID="-1178329849">
+			<list name="tier_group_list" overrideParent="True">
+				<list name="tier_group" overrideParent="True" List.ItemID="863570417">
+					<group name="tier" List.ItemID="2041129866">
+						<list name="tier_requirements" overrideParent="True">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier2_trade_cart_fre" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" overrideParent="True" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+					<group name="tier" List.ItemID="-1387066902">
+						<list name="tier_requirements" overrideParent="True">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier3_trade_cart_fre" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\castle_age" overrideParent="True" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+					<group name="tier" List.ItemID="-1430268590">
+						<list name="tier_requirements" overrideParent="True">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier4_trade_cart_fre" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="132264" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_trade_cart" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-697586642" List.ParentItemID="-697586642">
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="1453824596" List.ParentItemID="1453824596">
+				<list name="abilities" overrideParent="True">
+					<instance_reference name="ability" value="abilities\modal_abilities\core\trade_restart" List.ItemID="-1962696" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\french\toggle_trade_resource_food_fre" overrideParent="True" List.ItemID="1568370117" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\french\toggle_trade_resource_wood_fre" overrideParent="True" List.ItemID="-688554059" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\french\toggle_trade_resource_gold_fre" List.ItemID="1068575662" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\french\toggle_trade_resource_stone_fre" overrideParent="True" List.ItemID="2093364864" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="2119325581" List.ParentItemID="2119325581">
+				<list name="action_state_trees" overrideParent="True">
+					<group name="container" List.ItemID="-1950621648">
+						<string name="state_tree" value="campaignMod_unit_action_apply\units\trade_cart" />
+					</group>
+					<group name="container" List.ItemID="1945127273">
+						<string name="state_tree" value="campaignMod_unit_action_apply\units\trade_cart\audio\fre" overrideParent="True" />
+					</group>
+					<group name="container" List.ItemID="1440056645">
+						<string name="state_tree" value="campaignMod_trade_cart_resource_modifiers_fre" overrideParent="True" />
+					</group>
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1008858871" List.ParentItemID="1008858871">
+				<list name="race_type_list" overrideParent="True">
+					<instance_reference name="race_type" value="racebps\french" List.ItemID="78788733" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="1069238167" List.ParentItemID="1069238167">
+				<enum_table name="speed_levels">
+					<float name="speed_level_3" value="6.3" overrideParent="True" />
+					<float name="speed_level_4" value="6.3" overrideParent="True" />
+				</enum_table>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-401309955" List.ParentItemID="-401309955">
+				<list name="tier_group_list" overrideParent="True">
+					<list name="tier_group" overrideParent="True" List.ItemID="1884952343">
+						<group name="tier" List.ItemID="-585849753">
+							<list name="tier_requirements" overrideParent="True">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier2_trade_cart_fre" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="campaignMod_tier_unit_exposure_dca" overrideParent="True" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="" overrideParent="True" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="True" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+						<group name="tier" List.ItemID="-328868616">
+							<list name="tier_requirements" overrideParent="True">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier3_trade_cart_fre" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="campaignMod_tier_unit_exposure_dca" overrideParent="True" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\castle_age" overrideParent="True" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="True" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+						<group name="tier" List.ItemID="669107098">
+							<list name="tier_requirements" overrideParent="True">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier4_trade_cart_fre" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="campaignMod_tier_unit_exposure_dca" overrideParent="True" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="True" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="132264" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_trade_cart" />
+	</variant>
+	<variant name="xp3">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1291264015" List.ParentItemID="-1291264015">
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-685505201" List.ParentItemID="-685505201">
+				<list name="abilities" overrideParent="True">
+					<instance_reference name="ability" value="abilities\modal_abilities\core\trade_restart" List.ItemID="1893960654" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\french\toggle_trade_resource_food_fre" overrideParent="True" List.ItemID="-783117074" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\french\toggle_trade_resource_wood_fre" overrideParent="True" List.ItemID="1901226703" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\french\trade_resource_modifiers_fre" List.ItemID="1806270693" />
+					<instance_reference name="ability" value="abilities\always_on_abilities\french\passives\market_passive_gold_generation_fre" List.ItemID="442646199" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="257961566" List.ParentItemID="257961566">
+				<list name="action_state_trees" overrideParent="True">
+					<group name="container" List.ItemID="-2000095193">
+						<string name="state_tree" value="xp3_unit_action_apply\units\trade_cart" />
+					</group>
+					<group name="container" List.ItemID="-53970723">
+						<string name="state_tree" value="xp3_unit_action_apply\units\trade_cart\audio\fre" overrideParent="True" />
+					</group>
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-26664171" List.ParentItemID="-26664171">
+				<list name="race_type_list" overrideParent="True">
+					<instance_reference name="race_type" value="racebps\french" List.ItemID="-1695043984" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="-1290137626" List.ParentItemID="-1290137626">
+				<enum_table name="speed_levels">
+					<float name="speed_level_3" value="6.3" overrideParent="True" />
+					<float name="speed_level_4" value="6.3" overrideParent="True" />
+				</enum_table>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-1178329849" List.ParentItemID="-1178329849">
+				<list name="tier_group_list" overrideParent="True">
+					<list name="tier_group" overrideParent="True" List.ItemID="-1059058394">
+						<group name="tier" List.ItemID="-1773995226">
+							<list name="tier_requirements" overrideParent="True">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier2_trade_cart_fre" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="xp3_tier_unit_exposure_dca" overrideParent="True" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="" overrideParent="True" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="True" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+						<group name="tier" List.ItemID="-528212990">
+							<list name="tier_requirements" overrideParent="True">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier3_trade_cart_fre" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="xp3_tier_unit_exposure_dca" overrideParent="True" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\castle_age" overrideParent="True" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="True" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+						<group name="tier" List.ItemID="1837986080">
+							<list name="tier_requirements" overrideParent="True">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\french\units\tier4_trade_cart_fre" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="xp3_tier_unit_exposure_dca" overrideParent="True" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="True" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="132264" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_trade_cart" />
+	</variant>
+</instance>

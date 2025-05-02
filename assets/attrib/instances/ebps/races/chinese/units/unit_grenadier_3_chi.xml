@@ -28,7 +28,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1777027059" List.ParentItemID="-1777027059">
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
-			<float name="entity_scale" value="70" overrideParent="True" />
+			<float name="entity_scale" value="80" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-650292740" List.ParentItemID="-650292740">
 			<float name="hitpoints" value="80" overrideParent="True" />
