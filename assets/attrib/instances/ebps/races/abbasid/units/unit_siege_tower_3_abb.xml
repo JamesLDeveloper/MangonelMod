@@ -1,0 +1,214 @@
+<instance version="6" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1015139908" List.ParentItemID="1015139908">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier3_siege_tower_abb" overrideParent="True" />
+			<bool name="browsable_in_editor" value="False" overrideParent="True" />
+			<float name="entity_scale" value="80" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1324899961" List.ParentItemID="-1324899961">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\abbasid" List.ItemID="1206486127" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-473425140" List.ParentItemID="-473425140">
+			<file name="icon_name" value="races\common\units\siegetower" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="1985133745" List.ParentItemID="1985133745">
+			<instance_reference name="on_construction_squad" value="sbps\races\abbasid\unit_siege_tower_3_abb" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\requirement_ext" overrideParent="True" List.ItemID="-266315491" List.ParentItemID="-266315491">
+			<list name="requirement_table" overrideParent="True">
+			</list>
+			<state_tree_node name="requirement_statetree" value="" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-1903328120" List.ListAction="Append">
+			<list name="tier_group_list">
+				<list name="tier_group" overrideParent="True" List.ItemID="1909046520">
+					<group name="tier" List.ItemID="-1797161739">
+						<list name="tier_requirements" overrideParent="True">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier3_siege_tower_abb" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="False" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+					<group name="tier" List.ItemID="996986625">
+						<list name="tier_requirements" overrideParent="True">
+						</list>
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier4_siege_tower_abb" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="False" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="199685" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units_buildable\unit_siege_tower_3" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="2018345962" List.ParentItemID="2018345962">
+				<instance_reference name="animator_attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier3_siege_tower_abb" overrideParent="True" />
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1966059254" List.ParentItemID="-1966059254">
+				<list name="race_type_list" overrideParent="True">
+					<instance_reference name="race_type" value="racebps\abbasid" List.ItemID="338339690" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="1837617587" List.ParentItemID="1837617587">
+				<instance_reference name="on_construction_squad" value="sbps\races\abbasid\unit_siege_tower_3_abb" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\requirement_ext" overrideParent="True" List.ItemID="-1839804041" List.ParentItemID="-1839804041">
+				<list name="requirement_table" overrideParent="True">
+				</list>
+				<state_tree_node name="requirement_statetree" value="" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-1726254607" List.ListAction="Append">
+				<list name="tier_group_list">
+					<list name="tier_group" overrideParent="True" List.ItemID="-619823442">
+						<group name="tier" List.ItemID="-1996862851">
+							<list name="tier_requirements" overrideParent="True">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier3_siege_tower_abb" overrideParent="True" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="campaignMod_tier_unit_exposure_dca" overrideParent="True" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="False" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+						<group name="tier" List.ItemID="1506852808">
+							<list name="tier_requirements" overrideParent="True">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier4_siege_tower_abb" overrideParent="True" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="campaignMod_tier_unit_exposure_dca" overrideParent="True" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="False" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="199685" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\units_buildable\unit_siege_tower_3" />
+	</variant>
+	<variant name="xp3">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1015139908" List.ParentItemID="1015139908">
+				<instance_reference name="animator_attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier3_siege_tower_abb" overrideParent="True" />
+				<bool name="browsable_in_editor" value="False" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1324899961" List.ParentItemID="-1324899961">
+				<list name="race_type_list" overrideParent="True">
+					<instance_reference name="race_type" value="racebps\abbasid" List.ItemID="-1899957226" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-473425140" List.ParentItemID="-473425140">
+				<file name="icon_name" value="races\common\units\siegetower" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="1985133745" List.ParentItemID="1985133745">
+				<instance_reference name="on_construction_squad" value="sbps\races\abbasid\unit_siege_tower_3_abb" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\requirement_ext" overrideParent="True" List.ItemID="-266315491" List.ParentItemID="-266315491">
+				<list name="requirement_table" overrideParent="True">
+				</list>
+				<state_tree_node name="requirement_statetree" value="" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="2072929298" List.ListAction="Append">
+				<list name="tier_group_list">
+					<list name="tier_group" overrideParent="True" List.ItemID="-1291339009">
+						<group name="tier" List.ItemID="-1109687158">
+							<list name="tier_requirements" overrideParent="True">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier3_siege_tower_abb" overrideParent="True" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="xp3_tier_unit_exposure_dca" overrideParent="True" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="False" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+						<group name="tier" List.ItemID="-924773126">
+							<list name="tier_requirements" overrideParent="True">
+							</list>
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier4_siege_tower_abb" overrideParent="True" />
+							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+								<state_tree_node name="ActionTree_OpeningBranch" value="xp3_tier_unit_exposure_dca" overrideParent="True" />
+								<bool name="start_suspended" value="False" />
+							</template_reference>
+							<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\dev\ages\imperial_age" overrideParent="True" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+							<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+							<string name="tier_attachment_action" value="" />
+							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+								<bool name="reissue_commands" value="False" />
+								<bool name="continue_state_trees" value="False" />
+								<bool name="remove_from_pending_deaths" value="False" />
+								<bool name="enable_all_extensions" value="True" />
+							</template_reference>
+							<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="199685" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\units_buildable\unit_siege_tower_3" />
+	</variant>
+</instance>
