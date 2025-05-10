@@ -29,6 +29,9 @@
 				<float name="time_seconds" value="15" overrideParent="True" />
 			</group>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="1843700163" List.ParentItemID="1843700163">
+			<float name="personnel_pop" value="2" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-26664171" List.ParentItemID="-26664171">
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\french" List.ItemID="1484982147" />
