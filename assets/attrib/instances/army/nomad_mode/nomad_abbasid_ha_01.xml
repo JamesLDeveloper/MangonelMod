@@ -22,6 +22,14 @@
 			<int name="random_start_attempts" value="50" overrideParent="True" />
 			<bool name="use_early_out_optimization" value="False" overrideParent="True" />
 		</template_reference>
+		<group name="race_population_cap_table" overrideParent="True">
+			<float name="base_medic_cap" value="0" />
+			<float name="base_personnel_cap" value="30" />
+			<float name="base_vehicle_cap" value="0" />
+			<float name="max_medic_cap" value="0" />
+			<float name="max_personnel_cap" value="400" />
+			<float name="max_vehicle_cap" value="0" />
+		</group>
 	</group>
 	<uniqueid name="pbgid" value="2128084" />
 	<instance_reference name="parent_pbg" value="army\standard_mode\normal_abbasid_ha_01" />

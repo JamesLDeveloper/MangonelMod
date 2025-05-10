@@ -22,6 +22,10 @@
 			<int name="random_start_attempts" value="50" overrideParent="True" />
 			<bool name="use_early_out_optimization" value="False" overrideParent="True" />
 		</template_reference>
+		<group name="race_population_cap_table">
+			<float name="base_personnel_cap" value="30" overrideParent="True" />
+			<float name="max_personnel_cap" value="400" overrideParent="True" />
+		</group>
 	</group>
 	<uniqueid name="pbgid" value="2121060" />
 	<instance_reference name="parent_pbg" value="army\standard_mode\normal_english" />

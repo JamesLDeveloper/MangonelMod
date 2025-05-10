@@ -22,6 +22,11 @@
 				<instance_reference name="building" value="ebps\races\mongol\buildings\building_town_center_dummy_start" overrideParent="True" />
 			</group>
 		</list>
+		<group name="race_population_cap_table">
+			<float name="base_personnel_cap" value="30" overrideParent="True" />
+			<float name="max_medic_cap" value="0" overrideParent="True" />
+			<float name="max_personnel_cap" value="400" overrideParent="True" />
+		</group>
 	</group>
 	<uniqueid name="pbgid" value="2126612" />
 	<instance_reference name="parent_pbg" value="army\standard_mode\normal_byzantine" />

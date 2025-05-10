@@ -23,6 +23,10 @@
 			<bool name="use_early_out_optimization" value="False" overrideParent="True" />
 		</template_reference>
 		<state_tree_node name="start_actions_statetree" value="civ_start\French_Historic_01" overrideParent="True" />
+		<group name="race_population_cap_table">
+			<float name="base_personnel_cap" value="30" overrideParent="True" />
+			<float name="max_personnel_cap" value="400" overrideParent="True" />
+		</group>
 	</group>
 	<uniqueid name="pbgid" value="2128087" />
 	<instance_reference name="parent_pbg" value="army\standard_mode\normal_french_ha_01" />
