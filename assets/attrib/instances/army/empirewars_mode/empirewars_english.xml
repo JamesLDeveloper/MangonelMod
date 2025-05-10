@@ -82,10 +82,10 @@
 		</enum_table>
 		<group name="race_population_cap_table">
 			<float name="base_medic_cap" value="0" />
-			<float name="base_personnel_cap" value="0" />
+			<float name="base_personnel_cap" value="30" overrideParent="True" />
 			<float name="base_vehicle_cap" value="0" />
 			<float name="max_medic_cap" value="0" />
-			<float name="max_personnel_cap" value="560" overrideParent="True" />
+			<float name="max_personnel_cap" value="400" overrideParent="True" />
 			<float name="max_vehicle_cap" value="0" />
 		</group>
 		<list name="abilities">
