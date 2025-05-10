@@ -199,7 +199,7 @@
 		<list name="starting_buildings">
 			<group name="starting_building" List.ItemID="-1424290406">
 				<string name="key" value="default_mp" />
-				<instance_reference name="building" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_capital_eng" />
+				<instance_reference name="building" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_capital_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" />
 				<list name="player_upgrades">
 				</list>
 			</group>
@@ -545,7 +545,7 @@
 			<list name="starting_buildings">
 				<group name="starting_building" List.ItemID="221749903">
 					<string name="key" value="default_mp" />
-					<instance_reference name="building" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_capital_eng" />
+					<instance_reference name="building" value="ebps\races\english\buildings\building_town_center_burh_eng\building_town_center_capital_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" />
 					<list name="player_upgrades">
 					</list>
 				</group>
