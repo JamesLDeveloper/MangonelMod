@@ -1,3 +1,3 @@
 ﻿ID,Pipeline,PipelineStage,Notes,TranslationNotes,Tags,Text
 1,,,Mod name.,,,Siege Tweaks And Extra Population 5
-2,,,Mod description.,,,"Mangonels don't require setup to fire.\\n\\r\\n\\rTrebuchets only target buildings. Use attack ground ability to attack anything else.\\n\\r\\n\\rAll civs now have pop cap of 280 for Normal, Empire and Nomad modes."
+2,,,Mod description.,,,"Mangonels don't require setup to fire.\\n\\r\\n\\rTrebuchets only target buildings. Use attack ground ability to attack anything else.\\n\\r\\n\\rAll civs have pop cap of 400 for Normal, Empire and Nomad modes and start with a base population of 30 apart from Mongols who start with 400.\\n\\r\\n\\rTo balance civilians with military, all villagers, trade caravans and trade ships cost 2 population."
