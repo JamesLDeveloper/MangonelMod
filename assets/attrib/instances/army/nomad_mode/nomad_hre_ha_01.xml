@@ -39,7 +39,7 @@
 			</list>
 		</group>
 		<group name="race_population_cap_table">
-			<float name="base_personnel_cap" value="30" overrideParent="True" />
+			<float name="base_personnel_cap" value="40" overrideParent="True" />
 			<float name="max_personnel_cap" value="400" overrideParent="True" />
 		</group>
 	</group>

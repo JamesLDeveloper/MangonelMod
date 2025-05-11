@@ -24,7 +24,7 @@
 		</template_reference>
 		<state_tree_node name="start_actions_statetree" value="civ_start\French_Historic_01" overrideParent="True" />
 		<group name="race_population_cap_table">
-			<float name="base_personnel_cap" value="30" overrideParent="True" />
+			<float name="base_personnel_cap" value="40" overrideParent="True" />
 			<float name="max_personnel_cap" value="400" overrideParent="True" />
 		</group>
 	</group>

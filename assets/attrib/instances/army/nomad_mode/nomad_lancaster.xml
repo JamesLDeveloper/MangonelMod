@@ -23,7 +23,7 @@
 			<bool name="use_early_out_optimization" value="False" />
 		</template_reference>
 		<group name="race_population_cap_table">
-			<float name="base_personnel_cap" value="30" overrideParent="True" />
+			<float name="base_personnel_cap" value="40" overrideParent="True" />
 			<float name="max_medic_cap" value="0" overrideParent="True" />
 			<float name="max_personnel_cap" value="400" overrideParent="True" />
 		</group>
