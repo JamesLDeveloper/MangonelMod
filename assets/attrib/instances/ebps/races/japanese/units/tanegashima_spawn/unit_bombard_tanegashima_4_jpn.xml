@@ -13,6 +13,9 @@
 				<float name="time_seconds" value="0" overrideParent="True" />
 			</group>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="949331190" List.ParentItemID="949331190">
+			<float name="personnel_pop" value="6" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-2081919558" List.ParentItemID="-2081919558">
 			<list name="tier_group_list" overrideParent="True">
 				<list name="tier_group" overrideParent="True" List.ItemID="-1859197407">

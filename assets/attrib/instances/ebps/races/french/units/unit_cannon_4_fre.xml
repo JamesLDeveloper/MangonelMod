@@ -10,6 +10,9 @@
 				<instance_reference name="ability" value="abilities\timed_abilities\french\cannon_swap_fre" overrideParent="True" List.ItemID="-232270916" List.ListAction="Append" />
 			</list>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="149232934" List.ParentItemID="149232934">
+			<float name="personnel_pop" value="6" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-1467796558" List.ParentItemID="-1467796558">
 			<file name="icon_name" value="races\common\units\cannon_4" overrideParent="True" />
 		</template_reference>

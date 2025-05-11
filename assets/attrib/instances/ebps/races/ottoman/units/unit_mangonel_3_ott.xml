@@ -21,6 +21,9 @@
 				</group>
 			</list>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="1782282432" List.ParentItemID="1782282432">
+			<float name="personnel_pop" value="6" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1843239910" List.ParentItemID="1843239910">
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\ottoman" overrideParent="True" List.ItemID="-244293334" />

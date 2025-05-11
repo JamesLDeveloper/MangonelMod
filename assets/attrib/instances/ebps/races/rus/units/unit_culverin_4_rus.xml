@@ -8,6 +8,9 @@
 		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="1844382716" List.ParentItemID="1844382716">
 			<bool name="regeneration_disabled" value="False" overrideParent="True" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-1856811533" List.ParentItemID="-1856811533">
+			<float name="personnel_pop" value="6" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1246076922" List.ParentItemID="1246076922">
 			<list name="hardpoints">
 				<group name="hardpoint" List.ItemID="-1842440573" List.ParentItemID="-1842440573">

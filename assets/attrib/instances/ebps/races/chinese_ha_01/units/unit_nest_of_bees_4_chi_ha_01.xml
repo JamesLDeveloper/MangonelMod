@@ -20,7 +20,7 @@
 			<instance_reference name="hit_material" value="hit_material\wood" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-1856811533" List.ParentItemID="-1856811533">
-			<float name="personnel_pop" value="3" overrideParent="True" />
+			<float name="personnel_pop" value="6" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1978278333" List.ParentItemID="1978278333">
 			<list name="unit_type_list">

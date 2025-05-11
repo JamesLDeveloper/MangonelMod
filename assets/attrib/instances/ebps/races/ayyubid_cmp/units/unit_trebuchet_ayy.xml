@@ -3,6 +3,9 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-422500858" List.ParentItemID="-422500858">
 			<bool name="browsable_in_editor" value="False" overrideParent="True" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="1488818392" List.ParentItemID="1488818392">
+			<float name="personnel_pop" value="4" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="987752469" List.ParentItemID="987752469">
 			<list name="race_type_list">
 				<instance_reference name="race_type" value="racebps\campaign_xp3\ayyubid_cmp" overrideParent="True" List.ItemID="810503615" List.ParentItemID="810503615" />

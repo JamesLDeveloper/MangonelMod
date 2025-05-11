@@ -35,7 +35,7 @@
 			<float name="hitpoints" value="250" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="949331190" List.ParentItemID="949331190">
-			<float name="personnel_pop" value="4" overrideParent="True" />
+			<float name="personnel_pop" value="8" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1738424060" List.ParentItemID="1738424060">
 			<list name="unit_type_list">

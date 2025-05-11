@@ -7,6 +7,9 @@
 		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="-574224494" List.ParentItemID="-574224494">
 			<instance_reference name="hit_material" value="hit_material\metal" overrideParent="True" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="949331190" List.ParentItemID="949331190">
+			<float name="personnel_pop" value="6" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1738424060" List.ParentItemID="1738424060">
 			<list name="race_type_list" overrideParent="True">
 				<instance_reference name="race_type" value="racebps\japanese" overrideParent="True" List.ItemID="1095612883" />

@@ -3,6 +3,9 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1152503433" List.ParentItemID="-1152503433">
 			<float name="entity_scale" value="80" overrideParent="True" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="1782282432" List.ParentItemID="1782282432">
+			<float name="personnel_pop" value="6" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1843239910" List.ParentItemID="1843239910">
 			<list name="unit_type_list">
 				<enum name="unit_type" value="elite" List.ItemID="-330000713" List.ListAction="Append" />
