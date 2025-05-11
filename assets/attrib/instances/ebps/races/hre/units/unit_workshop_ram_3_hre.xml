@@ -123,6 +123,9 @@
 		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-559472318" List.ParentItemID="-559472318">
 			<instance_reference name="schema" value="statemodel_schema\units\civilizations\hre\ram_hre" overrideParent="True" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-740053457" List.ParentItemID="-740053457">
+			<float name="personnel_pop" value="2" overrideParent="True" />
+		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="2108162" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_workshop_ram_3" />

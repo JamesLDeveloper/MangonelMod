@@ -9,9 +9,8 @@
     <LayoutPanel Orientation="Vertical">
       <LayoutDocumentPane>
         <LayoutDocument Title="mod.rdo" ContentId="Reflect|Essence.Editor.ReflectEditor.Controls.DefaultReflectControlActivator|0x6389053C33741C4F" LastActivationTimeStamp="05/11/2025 10:12:01" />
-        <LayoutDocument Title="ebps" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ebps" LastActivationTimeStamp="05/11/2025 10:15:54" />
-        <LayoutDocument Title="army" ContentId="Category|army" LastActivationTimeStamp="05/11/2025 08:41:22" />
-        <LayoutDocument Title="mod.png" ContentId="FileName|Image|assets\mod.png" ToolTip="C:\Users\XPS\OneDrive\Documents\Age of Empires iv files\Siege Tweaks And Extra Population 5\assets\mod.png" LastActivationTimeStamp="05/11/2025 10:12:03" />
+        <LayoutDocument Title="mod.png" ContentId="FileName|Image|assets\mod.png" ToolTip="C:\Users\XPS\OneDrive\Documents\Age of Empires iv files\Siege Tweaks And Extra Population 5\assets\mod.png" LastActivationTimeStamp="05/11/2025 20:58:35" />
+        <LayoutDocument Title="ebps" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ebps" LastActivationTimeStamp="05/11/2025 20:59:19" />
       </LayoutDocumentPane>
       <LayoutAnchorablePane Id="1b84d0aa-3fd1-4781-909d-fa3e4b760d6d" Name="anchorablesPane" DockHeight="300">
         <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Output" IsSelected="True" ContentId="Output" LastActivationTimeStamp="05/10/2025 13:28:51" />
@@ -38,7 +37,7 @@
   <BottomSide />
   <FloatingWindows />
   <Hidden>
-    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Transformation" IsSelected="True" ContentId="ScenarioEditor.Transformation" FloatingLeft="200" FloatingTop="200" FloatingWidth="250" FloatingHeight="300" LastActivationTimeStamp="05/11/2025 08:16:49" PreviousContainerId="78c06263-eb86-40c1-8abf-6d89a3781df0" PreviousContainerIndex="0" />
-    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Painter" IsSelected="True" ContentId="ScenarioEditor.Painter" FloatingLeft="200" FloatingTop="200" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="05/11/2025 08:16:49" PreviousContainerId="803a141d-cc1a-4fb2-88ae-2270dd8652b4" PreviousContainerIndex="1" />
+    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Transformation" IsSelected="True" ContentId="ScenarioEditor.Transformation" FloatingLeft="200" FloatingTop="200" FloatingWidth="250" FloatingHeight="300" LastActivationTimeStamp="05/11/2025 20:58:35" PreviousContainerId="78c06263-eb86-40c1-8abf-6d89a3781df0" PreviousContainerIndex="0" />
+    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Painter" IsSelected="True" ContentId="ScenarioEditor.Painter" FloatingLeft="200" FloatingTop="200" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="05/11/2025 20:58:35" PreviousContainerId="803a141d-cc1a-4fb2-88ae-2270dd8652b4" PreviousContainerIndex="1" />
   </Hidden>
 </LayoutRoot>

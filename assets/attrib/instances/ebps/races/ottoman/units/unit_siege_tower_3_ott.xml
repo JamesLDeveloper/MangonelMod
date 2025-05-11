@@ -21,6 +21,9 @@
 				<string name="on_construction_complete_entity_state_tree_ref" value="imperial_council_ott\construction_complete" overrideParent="True" />
 			</group>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="425762112" List.ParentItemID="425762112">
+			<float name="personnel_pop" value="2" overrideParent="True" />
+		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="2034654" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\units_buildable\unit_siege_tower_3" />

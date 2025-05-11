@@ -33,6 +33,10 @@
 		<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="655187019" List.ParentItemID="655187019">
 			<string name="speaker_code" value="seige" overrideParent="True" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\hold_ext" List.ItemID="-1301307975" List.ParentItemID="-1301307975">
+			<float name="num_slots" value="8" overrideParent="True" />
+			<float name="num_squad_slots" value="8" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="190341173" List.ParentItemID="190341173">
 			<list name="tier_group_list">
 				<list name="tier_group" List.ItemID="14135855">
@@ -58,6 +62,9 @@
 					</group>
 				</list>
 			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-740053457" List.ParentItemID="-740053457">
+			<float name="personnel_pop" value="2" overrideParent="True" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="2108160" />

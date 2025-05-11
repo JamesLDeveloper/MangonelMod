@@ -80,6 +80,9 @@
 				</list>
 			</list>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-740053457" List.ParentItemID="-740053457">
+			<float name="personnel_pop" value="2" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\burn_ext" List.ItemID="-517028588" List.ListAction="Append">
 			<float name="on_fire_damage_per_sec" value="0" overrideParent="True" />
 			<float name="on_fire_decay_amount_per_sec" value="-0.05" />

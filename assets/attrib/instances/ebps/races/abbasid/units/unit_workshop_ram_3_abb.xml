@@ -83,6 +83,9 @@
 				</list>
 			</list>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="-740053457" List.ParentItemID="-740053457">
+			<float name="personnel_pop" value="2" overrideParent="True" />
+		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="2108158" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_workshop_ram_3" />

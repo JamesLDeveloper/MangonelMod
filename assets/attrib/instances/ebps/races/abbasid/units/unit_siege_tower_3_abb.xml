@@ -21,6 +21,9 @@
 			</list>
 			<state_tree_node name="requirement_statetree" value="" />
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="425762112" List.ParentItemID="425762112">
+			<float name="personnel_pop" value="2" overrideParent="True" />
+		</template_reference>
 		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-1903328120" List.ListAction="Append">
 			<list name="tier_group_list">
 				<list name="tier_group" overrideParent="True" List.ItemID="1909046520">
