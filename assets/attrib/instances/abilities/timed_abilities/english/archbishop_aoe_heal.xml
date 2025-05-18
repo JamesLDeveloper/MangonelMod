@@ -31,7 +31,7 @@
 		<bool name="initial_recharge" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="12" />
+		<float name="range" value="1200" />
 		<bool name="range_ignore" value="False" />
 		<float name="recharge_time" value="180" />
 		<bool name="refundable" value="True" />
@@ -189,7 +189,7 @@
 		<state_tree_node name="statetree_node_prereq_self_requirement" value="" />
 		<state_tree_node name="statetree_node_prereq_target_requirement" value="" />
 		<state_tree_node name="statetree_node_prereq_self_recharge_requirement" value="" />
-		<state_tree_node name="entity_tree" value="monk_aoe_heal" />
+		<state_tree_node name="entity_tree" value="archbishop_aoe_heal" />
 		<state_tree_node name="squad_tree" value="" />
 		<group name="ability_active_state_tree_group">
 			<state_tree_node name="ability_activate_squad_tree" value="" />
@@ -226,11 +226,11 @@
 		<bool name="can_cast_again_whilst_pending" value="False" />
 		<list name="float_properties">
 			<template_reference name="float" value="abilitybag_float_property" List.ItemID="-1158401926">
-				<float name="value" value="10" />
+				<float name="value" value="200" />
 				<enum name="id" value="heal" />
 			</template_reference>
 			<template_reference name="float" value="abilitybag_float_property" List.ItemID="-2108344397">
-				<float name="value" value="15" />
+				<float name="value" value="300" />
 				<enum name="id" value="modifier" />
 			</template_reference>
 		</list>

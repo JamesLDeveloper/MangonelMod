@@ -179,6 +179,7 @@
 				<instance_reference name="ability" value="abilities\timed_abilities\english\archbishop_conversion_faith_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="359516873" />
 				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\archbishop_conversion" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="516770676" />
 				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_mass_heal_passive_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-1704287192" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_heal_aura_smaller_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="1035310847" />
 			</list>
 			<int name="ui_combine_priority" value="0" />
 			<group name="squad_orders">
