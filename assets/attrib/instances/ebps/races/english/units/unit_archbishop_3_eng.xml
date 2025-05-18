@@ -1,26 +1,51 @@
-<instance version="6" description="Rus Castle Age Monk" template="ebps">
+<instance version="6" description="English Archbishop" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-276819776" List.ParentItemID="-276819776">
-			<bool name="browsable_in_editor" value="False" overrideParent="True" />
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			<float name="entity_scale" value="80" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-496305047" List.ParentItemID="-496305047">
-			<list name="abilities" overrideParent="True">
-				<instance_reference name="ability" value="abilities\timed_abilities\english\archbishop_conversion_faith_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" overrideParent="True" List.ItemID="1531696589" />
+			<list name="abilities">
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_mass_heal_passive_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-92576590" List.ListAction="Append" />
 			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-226814690" List.ParentItemID="-226814690">
+			<list name="action_state_trees">
+				<group name="container" List.ItemID="322626763" List.ParentItemID="322626763">
+					<string name="state_tree" value="unit_action_apply\units\monk\audio\eng" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="-287598437" List.ParentItemID="-287598437">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="gold" value="450" overrideParent="True" />
+				</enum_table>
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-293080404" List.ParentItemID="-293080404">
+			<float name="hitpoints" value="270" overrideParent="True" />
+			<float name="regeneration" value="5" overrideParent="True" />
+			<bool name="regeneration_disabled" value="False" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="2020864727" List.ParentItemID="2020864727">
+			<instance_reference name="hit_material" value="hit_material\canvas" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\population_ext" List.ItemID="429434060" List.ParentItemID="429434060">
+			<float name="personnel_pop" value="2" overrideParent="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1376601539" List.ParentItemID="1376601539">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\abbasid" List.ItemID="-1146752866" />
+				<instance_reference name="race_type" value="racebps\english" List.ItemID="570026755" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="728432410" List.ListAction="Append">
-			<list name="tier_group_list">
-				<list name="tier_group" overrideParent="True" List.ItemID="-1314983330">
-					<group name="tier" List.ItemID="-677393260">
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-721197455" List.ListAction="Append">
+			<list name="tier_group_list" overrideParent="True">
+				<list name="tier_group" overrideParent="True" List.ItemID="-1509462089">
+					<group name="tier" List.ItemID="1899225128">
 						<list name="tier_requirements" overrideParent="True">
 						</list>
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier3_monk_abb" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier3_monk_eng" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />
@@ -31,16 +56,16 @@
 						<string name="tier_attachment_action" value="" />
 						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
 							<bool name="reissue_commands" value="False" />
-							<bool name="continue_state_trees" value="True" overrideParent="True" />
+							<bool name="continue_state_trees" value="True" />
 							<bool name="remove_from_pending_deaths" value="False" />
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
 					</group>
-					<group name="tier" List.ItemID="166351541">
+					<group name="tier" List.ItemID="178206417">
 						<list name="tier_requirements" overrideParent="True">
 						</list>
-						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier4_monk_abb" overrideParent="True" />
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier4_monk_eng" />
 						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
 							<bool name="start_suspended" value="False" />
@@ -51,7 +76,7 @@
 						<string name="tier_attachment_action" value="" />
 						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
 							<bool name="reissue_commands" value="False" />
-							<bool name="continue_state_trees" value="True" overrideParent="True" />
+							<bool name="continue_state_trees" value="True" />
 							<bool name="remove_from_pending_deaths" value="False" />
 							<bool name="enable_all_extensions" value="True" />
 						</template_reference>
@@ -61,30 +86,54 @@
 			</list>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="199674" />
+	<uniqueid name="pbgid" value="1073741827" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_monk_3" />
 	<variant name="campaign">
 		<list name="extensions">
 			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1694445094" List.ParentItemID="1694445094">
 				<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-25784948" List.ParentItemID="-25784948">
-				<list name="abilities" overrideParent="True">
-					<instance_reference name="ability" value="abilities\always_on_abilities\abbasid\immune_to_conversion_abb" List.ItemID="2019811562" />
+			<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="554740619" List.ParentItemID="554740619">
+				<list name="action_state_trees">
+					<group name="container" List.ItemID="308100852" List.ParentItemID="308100852">
+						<string name="state_tree" value="campaignMod_unit_action_apply\units\monk\audio\eng" overrideParent="True" />
+					</group>
 				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="160333800" List.ParentItemID="160333800">
+				<instance_reference name="hit_material" value="hit_material\canvas" overrideParent="True" />
 			</template_reference>
 			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1329771098" List.ParentItemID="1329771098">
 				<list name="race_type_list" overrideParent="True">
-					<instance_reference name="race_type" value="racebps\abbasid" List.ItemID="1276243031" />
+					<instance_reference name="race_type" value="racebps\english" List.ItemID="-1804736416" />
+				</list>
+				<list name="unit_type_list">
+					<enum name="unit_type" value="land_military" List.ItemID="-871497117" List.ListAction="Append" />
+					<enum name="unit_type" value="find_non_siege_land_military" List.ItemID="-163894349" List.ListAction="Append" />
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-1125565178" List.ListAction="Append">
-				<list name="tier_group_list">
-					<list name="tier_group" overrideParent="True" List.ItemID="-1671827355">
-						<group name="tier" List.ItemID="1942535748">
+			<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="234054901" List.ParentItemID="234054901">
+				<list name="hardpoints">
+					<group name="hardpoint" List.ItemID="881767104" List.ParentItemID="881767104">
+						<list name="weapon_table">
+							<group name="weapon" List.ItemID="2124960124" List.ParentItemID="2124960124">
+								<template_reference name="weapon_entity_attachment" value="options\attachment_types\entity_create_attachment">
+									<template_reference name="entity_attach_data" value="attachments\attach_data_entity">
+										<instance_reference name="ebp" value="ebps\races\core\weapons\wpn_range_dummy" overrideParent="True" />
+									</template_reference>
+								</template_reference>
+							</group>
+						</list>
+					</group>
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-351566201" List.ListAction="Append">
+				<list name="tier_group_list" overrideParent="True">
+					<list name="tier_group" overrideParent="True" List.ItemID="-130348481">
+						<group name="tier" List.ItemID="114846072">
 							<list name="tier_requirements" overrideParent="True">
 							</list>
-							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier3_monk_abb" overrideParent="True" />
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier3_monk_eng" />
 							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 								<state_tree_node name="ActionTree_OpeningBranch" value="campaignMod_tier_unit_exposure_dca" overrideParent="True" />
 								<bool name="start_suspended" value="False" />
@@ -95,16 +144,16 @@
 							<string name="tier_attachment_action" value="" />
 							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
 								<bool name="reissue_commands" value="False" />
-								<bool name="continue_state_trees" value="False" />
+								<bool name="continue_state_trees" value="True" />
 								<bool name="remove_from_pending_deaths" value="False" />
 								<bool name="enable_all_extensions" value="True" />
 							</template_reference>
 							<string name="inventory_category_to_refresh_on_tier_up" value="" />
 						</group>
-						<group name="tier" List.ItemID="-469439701">
+						<group name="tier" List.ItemID="-1310067406">
 							<list name="tier_requirements" overrideParent="True">
 							</list>
-							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier4_monk_abb" overrideParent="True" />
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier4_monk_eng" />
 							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 								<state_tree_node name="ActionTree_OpeningBranch" value="campaignMod_tier_unit_exposure_dca" overrideParent="True" />
 								<bool name="start_suspended" value="False" />
@@ -115,7 +164,7 @@
 							<string name="tier_attachment_action" value="" />
 							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
 								<bool name="reissue_commands" value="False" />
-								<bool name="continue_state_trees" value="False" />
+								<bool name="continue_state_trees" value="True" />
 								<bool name="remove_from_pending_deaths" value="False" />
 								<bool name="enable_all_extensions" value="True" />
 							</template_reference>
@@ -125,31 +174,36 @@
 				</list>
 			</template_reference>
 		</list>
-		<uniqueid name="pbgid" value="199674" />
+		<uniqueid name="pbgid" value="1073741827" />
 		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_monk_3" />
 	</variant>
 	<variant name="xp3">
 		<list name="extensions">
 			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-276819776" List.ParentItemID="-276819776">
-				<bool name="browsable_in_editor" value="False" overrideParent="True" />
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-496305047" List.ParentItemID="-496305047">
-				<list name="abilities" overrideParent="True">
-					<instance_reference name="ability" value="abilities\timed_abilities\english\archbishop_conversion_faith_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" overrideParent="True" List.ItemID="2070893721" />
+			<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-226814690" List.ParentItemID="-226814690">
+				<list name="action_state_trees">
+					<group name="container" List.ItemID="322626763" List.ParentItemID="322626763">
+						<string name="state_tree" value="xp3_unit_action_apply\units\monk\audio\eng" overrideParent="True" />
+					</group>
 				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\hit_object_ext" List.ItemID="2020864727" List.ParentItemID="2020864727">
+				<instance_reference name="hit_material" value="hit_material\canvas" overrideParent="True" />
 			</template_reference>
 			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1376601539" List.ParentItemID="1376601539">
 				<list name="race_type_list" overrideParent="True">
-					<instance_reference name="race_type" value="racebps\abbasid" List.ItemID="349684684" />
+					<instance_reference name="race_type" value="racebps\english" List.ItemID="-1007392164" />
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="1325286358" List.ListAction="Append">
-				<list name="tier_group_list">
-					<list name="tier_group" overrideParent="True" List.ItemID="-1511485465">
-						<group name="tier" List.ItemID="-1068963917">
+			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="1296700375" List.ListAction="Append">
+				<list name="tier_group_list" overrideParent="True">
+					<list name="tier_group" overrideParent="True" List.ItemID="-1214508270">
+						<group name="tier" List.ItemID="-1538393088">
 							<list name="tier_requirements" overrideParent="True">
 							</list>
-							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier3_monk_abb" overrideParent="True" />
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier3_monk_eng" />
 							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 								<state_tree_node name="ActionTree_OpeningBranch" value="xp3_tier_unit_exposure_dca" overrideParent="True" />
 								<bool name="start_suspended" value="False" />
@@ -160,16 +214,16 @@
 							<string name="tier_attachment_action" value="" />
 							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
 								<bool name="reissue_commands" value="False" />
-								<bool name="continue_state_trees" value="True" overrideParent="True" />
+								<bool name="continue_state_trees" value="True" />
 								<bool name="remove_from_pending_deaths" value="False" />
 								<bool name="enable_all_extensions" value="True" />
 							</template_reference>
 							<string name="inventory_category_to_refresh_on_tier_up" value="" />
 						</group>
-						<group name="tier" List.ItemID="215126325">
+						<group name="tier" List.ItemID="-547960152">
 							<list name="tier_requirements" overrideParent="True">
 							</list>
-							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier4_monk_abb" overrideParent="True" />
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier4_monk_eng" />
 							<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
 								<state_tree_node name="ActionTree_OpeningBranch" value="xp3_tier_unit_exposure_dca" overrideParent="True" />
 								<bool name="start_suspended" value="False" />
@@ -180,7 +234,7 @@
 							<string name="tier_attachment_action" value="" />
 							<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
 								<bool name="reissue_commands" value="False" />
-								<bool name="continue_state_trees" value="True" overrideParent="True" />
+								<bool name="continue_state_trees" value="True" />
 								<bool name="remove_from_pending_deaths" value="False" />
 								<bool name="enable_all_extensions" value="True" />
 							</template_reference>
@@ -190,7 +244,7 @@
 				</list>
 			</template_reference>
 		</list>
-		<uniqueid name="pbgid" value="199674" />
+		<uniqueid name="pbgid" value="1073741827" />
 		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_monk_3" />
 	</variant>
 </instance>
