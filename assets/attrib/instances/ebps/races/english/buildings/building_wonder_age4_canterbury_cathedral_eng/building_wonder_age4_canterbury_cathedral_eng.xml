@@ -16,14 +16,6 @@
 					</group>
 					<bool name="include_completed" value="True" />
 				</template_reference>
-				<template_reference name="required" value="requirements\required_statemodelbool" List.ItemID="1580955974">
-					<locstring name="ui_name" value="0" />
-					<enum name="reason" value="usage_and_display" overrideParent="True" />
-					<enum name="key" value="is_wonder_construction_enabled" overrideParent="True" />
-					<enum name="data_source_type" value="player_datasource" overrideParent="True" />
-					<bool name="default_value" value="False" />
-					<bool name="compare_to_value" value="True" overrideParent="True" />
-				</template_reference>
 				<template_reference name="required" value="requirements\required_not" List.ItemID="-1540819216">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11168821" />

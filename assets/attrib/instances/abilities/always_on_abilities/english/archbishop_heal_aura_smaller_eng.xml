@@ -31,7 +31,7 @@
 		<bool name="initial_recharge" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="2000" />
+		<float name="range" value="200" />
 		<bool name="range_ignore" value="False" />
 		<float name="recharge_time" value="0" />
 		<bool name="refundable" value="True" />
@@ -54,7 +54,7 @@
 			<file name="icon_name" value="races\common\abilities\heal" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="0" />
+			<locstring name="screen_name" value="5" mod="3fcab04d807b45ef919de6cf13b2b8da" />
 			<file name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />
@@ -72,7 +72,7 @@
 					<int name="int_value" value="2" List.ItemID="510767984" />
 					<float name="float_value" value="1" List.ItemID="1175553735" />
 				</list>
-				<locstring name="formatter" value="0" />
+				<locstring name="formatter" value="11197630" />
 			</template_reference>
 			<template_reference name="help_text_alternate_formatter" value="">
 			</template_reference>
@@ -219,14 +219,6 @@
 		<bool name="can_passive_ability_create_formation_squad_group" value="False" />
 		<bool name="can_cast_again_whilst_pending" value="False" />
 		<list name="float_properties">
-			<template_reference name="float" value="abilitybag_float_property" List.ItemID="-1431165639">
-				<float name="value" value="200" />
-				<enum name="id" value="heal" />
-			</template_reference>
-			<template_reference name="float" value="abilitybag_float_property" List.ItemID="-671899683">
-				<float name="value" value="300" />
-				<enum name="id" value="modifier" />
-			</template_reference>
 		</list>
 		<list name="int_properties">
 		</list>

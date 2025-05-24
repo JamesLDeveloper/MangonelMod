@@ -6,7 +6,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-496305047" List.ParentItemID="-496305047">
 			<list name="abilities" overrideParent="True">
-				<instance_reference name="ability" value="abilities\timed_abilities\english\archbishop_conversion_faith_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" overrideParent="True" List.ItemID="1531696589" />
+				<instance_reference name="ability" value="abilities\timed_abilities\abbasid\monk_conversion_faith_abb" overrideParent="True" List.ItemID="1531696589" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1376601539" List.ParentItemID="1376601539">

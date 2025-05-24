@@ -97,6 +97,16 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1597108008">
 			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_squad" List.ItemID="284923693">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="0" />
+					<float name="max_squad_cap" value="1" />
+					<instance_reference name="squad_name" value="sbps\races\english\unit_archbishop_3_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" overrideParent="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
 			</list>
 			<state_tree_node name="requirement_statetree" value="" />
 		</template_reference>
@@ -176,10 +186,14 @@
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="-155500230" />
 				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="-1714545431" />
 				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_capture_holy_site" List.ItemID="1420721112" />
-				<instance_reference name="ability" value="abilities\timed_abilities\english\archbishop_conversion_faith_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="359516873" />
+				<instance_reference name="ability" value="abilities\timed_abilities\english\archbishop_conversion_faith_2_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" overrideParent="True" List.ItemID="359516873" />
 				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\archbishop_conversion" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="516770676" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_mass_heal_passive_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-1704287192" />
 				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_heal_aura_smaller_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="1035310847" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_attack_speed_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-1904676676" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_formation_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-1167787013" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_range_armor_buff_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-1281165549" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_formation_heal_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-844284402" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_mass_heal_passive_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="385806056" />
 			</list>
 			<int name="ui_combine_priority" value="0" />
 			<group name="squad_orders">

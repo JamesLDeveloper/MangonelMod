@@ -31,8 +31,8 @@
 		<bool name="initial_recharge" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="25" />
-		<bool name="range_ignore" value="False" />
+		<float name="range" value="250" />
+		<bool name="range_ignore" value="True" />
 		<float name="recharge_time" value="5" />
 		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
@@ -49,7 +49,7 @@
 		</group>
 		<group name="ui_info">
 			<locstring name="extra_text" value="0" />
-			<locstring name="help_text" value="4" mod="3fcab04d807b45ef919de6cf13b2b8da" />
+			<locstring name="help_text" value="11246411" />
 			<string name="hotkey_name" value="w" />
 			<file name="icon_name" value="races\common\abilities\declare_state_religion" />
 			<string name="overlay_name" value="" />
@@ -117,7 +117,7 @@
 		<locstring name="ui_usage_txt" value="0" />
 		<bool name="validate_actions" value="False" />
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_statemodelbool" comment="Monk is not carrying a relic" List.ItemID="-596842100">
+			<template_reference name="required" value="requirements\required_statemodelbool" comment="Monk is not carrying a relic" List.ItemID="318185871">
 				<locstring name="ui_name" value="11149377" />
 				<enum name="reason" value="usage" />
 				<enum name="key" value="is_carrying_entity" />
@@ -151,20 +151,20 @@
 		</enum_table>
 		<enum name="ui_group_cast_type" value="single" />
 		<list name="requirements_target">
-			<template_reference name="required" value="requirements\required_all_in_list" List.ItemID="-1346025317">
+			<template_reference name="required" value="requirements\required_all_in_list" List.ItemID="-1269292416">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="11220955" />
 				<list name="requirements">
-					<template_reference name="requirement" value="requirements\required_ownership" List.ItemID="862498344">
+					<template_reference name="requirement" value="requirements\required_ownership" List.ItemID="1016593574">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
 						<enum name="ownership_type" value="enemy" />
 					</template_reference>
-					<template_reference name="requirement" value="requirements\required_not" List.ItemID="-1783188781">
+					<template_reference name="requirement" value="requirements\required_not" List.ItemID="-888344929">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
 						<list name="requirement_table">
-							<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-1921400054">
+							<template_reference name="required" value="requirements\required_unit_type" List.ItemID="1573009608">
 								<enum name="reason" value="usage" />
 								<locstring name="ui_name" value="0" />
 								<enum name="unit_type" value="animal_huntable" />
@@ -177,15 +177,15 @@
 				</list>
 				<locstring name="ui_name_controller" value="0" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_not" List.ItemID="-1362303930">
+			<template_reference name="required" value="requirements\required_not" List.ItemID="-957669923">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="11220953" />
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-539727908">
+					<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="642889793">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
 						<list name="requirements">
-							<template_reference name="requirement" value="requirements\required_unit_type" List.ItemID="-1876025450">
+							<template_reference name="requirement" value="requirements\required_unit_type" List.ItemID="1745576357">
 								<enum name="reason" value="usage" />
 								<locstring name="ui_name" value="0" />
 								<enum name="unit_type" value="siege" />
@@ -197,15 +197,15 @@
 					</template_reference>
 				</list>
 			</template_reference>
-			<template_reference name="required" value="requirements\required_not" List.ItemID="717975640">
+			<template_reference name="required" value="requirements\required_not" List.ItemID="-496306569">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="11220952" />
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-2050425619">
+					<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="545328023">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
 						<list name="requirements">
-							<template_reference name="requirement" value="requirements\required_unit_type" List.ItemID="372819385">
+							<template_reference name="requirement" value="requirements\required_unit_type" List.ItemID="-1886152751">
 								<enum name="reason" value="usage" />
 								<locstring name="ui_name" value="0" />
 								<enum name="unit_type" value="building" />
@@ -217,15 +217,15 @@
 					</template_reference>
 				</list>
 			</template_reference>
-			<template_reference name="required" value="requirements\required_not" List.ItemID="-855206405">
+			<template_reference name="required" value="requirements\required_not" List.ItemID="-2006436671">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="11205213" />
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-1177595401">
+					<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="1915182414">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
 						<list name="requirements">
-							<template_reference name="requirement" value="requirements\required_unit_type" List.ItemID="-2026658879">
+							<template_reference name="requirement" value="requirements\required_unit_type" List.ItemID="521438898">
 								<enum name="reason" value="usage" />
 								<locstring name="ui_name" value="0" />
 								<enum name="unit_type" value="khan" />
@@ -237,25 +237,11 @@
 					</template_reference>
 				</list>
 			</template_reference>
-			<template_reference name="required" value="requirements\required_not" List.ItemID="-1385465675">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11217632" />
-				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_unit_type" List.ItemID="1295106062">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<enum name="unit_type" value="monk" />
-						<template_reference name="qualify_option" value="options\none">
-						</template_reference>
-						<bool name="search_load_out" value="False" />
-					</template_reference>
-				</list>
-			</template_reference>
-			<template_reference name="required" value="requirements\required_not" List.ItemID="33081810">
+			<template_reference name="required" value="requirements\required_not" List.ItemID="-1731802674">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="11220954" />
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_unit_type" List.ItemID="106700857">
+					<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-1736031194">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
 						<enum name="unit_type" value="naval_unit" />
@@ -265,11 +251,11 @@
 					</template_reference>
 				</list>
 			</template_reference>
-			<template_reference name="required" value="requirements\required_not" List.ItemID="-792305887">
+			<template_reference name="required" value="requirements\required_not" List.ItemID="-450130067">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="11217632" />
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_unit_type" List.ItemID="476097602">
+					<template_reference name="required" value="requirements\required_unit_type" List.ItemID="1808349011">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
 						<enum name="unit_type" value="king" />
@@ -279,11 +265,11 @@
 					</template_reference>
 				</list>
 			</template_reference>
-			<template_reference name="required" value="requirements\required_not" List.ItemID="-1213093326">
+			<template_reference name="required" value="requirements\required_not" List.ItemID="-1761583096">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="11228502" />
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-930044852">
+					<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-1736795428">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
 						<enum name="unit_type" value="animal_cattle_mal" />
@@ -293,11 +279,11 @@
 					</template_reference>
 				</list>
 			</template_reference>
-			<template_reference name="required" value="requirements\required_not" List.ItemID="764093571">
+			<template_reference name="required" value="requirements\required_not" List.ItemID="1225970645">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="11230181" />
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-1285746424">
+					<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-1883645477">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
 						<enum name="unit_type" value="mehter_ott" />
@@ -307,25 +293,11 @@
 					</template_reference>
 				</list>
 			</template_reference>
-			<template_reference name="required" value="requirements\required_not" List.ItemID="-1730597923">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11259195" />
-				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-1950422514">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<enum name="unit_type" value="bannerman_samurai_jpn" />
-						<template_reference name="qualify_option" value="options\none">
-						</template_reference>
-						<bool name="search_load_out" value="False" />
-					</template_reference>
-				</list>
-			</template_reference>
-			<template_reference name="required" value="requirements\required_not" List.ItemID="-1491764219">
+			<template_reference name="required" value="requirements\required_not" List.ItemID="929382749">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="11259196" />
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-635020428">
+					<template_reference name="required" value="requirements\required_unit_type" List.ItemID="1101036636">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
 						<enum name="unit_type" value="hero" />
@@ -335,11 +307,11 @@
 					</template_reference>
 				</list>
 			</template_reference>
-			<template_reference name="required" value="requirements\required_not" List.ItemID="901261555">
+			<template_reference name="required" value="requirements\required_not" List.ItemID="1575878032">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="0" />
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_statemodel_target" List.ItemID="1567320344">
+					<template_reference name="required" value="requirements\required_statemodel_target" List.ItemID="160597012">
 						<enum name="reason" value="usage" />
 						<enum name="compare_to_executer_key" value="jeanne_d_arc_inspired_companion" />
 						<locstring name="ui_name" value="11253668" />
@@ -432,7 +404,7 @@
 		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\abilities\ability_conversion_faith" />
 		<int name="default_command_additional_rally_weight_modifier" value="0" />
 	</group>
-	<uniqueid name="pbgid" value="2035316" />
+	<uniqueid name="pbgid" value="1073741836" />
 	<instance_reference name="parent_pbg" value="" />
 	<variant name="xp3">
 		<group name="ability_bag">
@@ -553,7 +525,7 @@
 			<locstring name="ui_usage_txt" value="0" />
 			<bool name="validate_actions" value="False" />
 			<list name="requirements">
-				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="1445907658">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1015188832">
 					<enum name="reason" value="usage_and_display" />
 					<locstring name="ui_name" value="0" />
 					<bool name="is_present" value="True" />
@@ -567,7 +539,7 @@
 						<bool name="include_parent_pbgs" value="False" />
 					</group>
 				</template_reference>
-				<template_reference name="required" value="requirements\required_statemodelbool" comment="Monk is not carrying a relic" List.ItemID="-1316871017">
+				<template_reference name="required" value="requirements\required_statemodelbool" comment="Monk is not carrying a relic" List.ItemID="-2003490137">
 					<locstring name="ui_name" value="11149377" />
 					<enum name="reason" value="usage" />
 					<enum name="key" value="is_carrying_entity" />
@@ -601,20 +573,20 @@
 			</enum_table>
 			<enum name="ui_group_cast_type" value="single" />
 			<list name="requirements_target">
-				<template_reference name="required" value="requirements\required_all_in_list" List.ItemID="-170252603">
+				<template_reference name="required" value="requirements\required_all_in_list" List.ItemID="-1615263478">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11220955" />
 					<list name="requirements">
-						<template_reference name="requirement" value="requirements\required_ownership" List.ItemID="949574146">
+						<template_reference name="requirement" value="requirements\required_ownership" List.ItemID="100735709">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<enum name="ownership_type" value="enemy" />
 						</template_reference>
-						<template_reference name="requirement" value="requirements\required_not" List.ItemID="532301533">
+						<template_reference name="requirement" value="requirements\required_not" List.ItemID="-1150834612">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<list name="requirement_table">
-								<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-677572997">
+								<template_reference name="required" value="requirements\required_unit_type" List.ItemID="1231806233">
 									<enum name="reason" value="usage" />
 									<locstring name="ui_name" value="0" />
 									<enum name="unit_type" value="animal_huntable" />
@@ -627,15 +599,15 @@
 					</list>
 					<locstring name="ui_name_controller" value="0" />
 				</template_reference>
-				<template_reference name="required" value="requirements\required_not" List.ItemID="-1041989897">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="1535964333">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11220953" />
 					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="2123870410">
+						<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-1510618212">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<list name="requirements">
-								<template_reference name="requirement" value="requirements\required_unit_type" List.ItemID="-1151671796">
+								<template_reference name="requirement" value="requirements\required_unit_type" List.ItemID="-64201587">
 									<enum name="reason" value="usage" />
 									<locstring name="ui_name" value="0" />
 									<enum name="unit_type" value="siege" />
@@ -647,15 +619,15 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="required" value="requirements\required_not" List.ItemID="-919304193">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="384229817">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11220952" />
 					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-1115945293">
+						<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-1738772363">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<list name="requirements">
-								<template_reference name="requirement" value="requirements\required_unit_type" List.ItemID="2033115621">
+								<template_reference name="requirement" value="requirements\required_unit_type" List.ItemID="-1392345790">
 									<enum name="reason" value="usage" />
 									<locstring name="ui_name" value="0" />
 									<enum name="unit_type" value="building" />
@@ -667,15 +639,15 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="required" value="requirements\required_not" List.ItemID="1731765575">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="-1916861439">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11205213" />
 					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-1688253091">
+						<template_reference name="required" value="requirements\required_any_in_list" List.ItemID="-165539230">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<list name="requirements">
-								<template_reference name="requirement" value="requirements\required_unit_type" List.ItemID="-356967168">
+								<template_reference name="requirement" value="requirements\required_unit_type" List.ItemID="1604013764">
 									<enum name="reason" value="usage" />
 									<locstring name="ui_name" value="0" />
 									<enum name="unit_type" value="khan" />
@@ -687,11 +659,11 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="required" value="requirements\required_not" List.ItemID="-1109012378">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="1418064863">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11217632" />
 					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-1000592057">
+						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="580162307">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<enum name="unit_type" value="monk" />
@@ -701,11 +673,11 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="required" value="requirements\required_not" List.ItemID="869675476">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="2016384214">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11220954" />
 					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-2099626822">
+						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="1693825164">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<enum name="unit_type" value="naval_unit" />
@@ -715,11 +687,11 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="required" value="requirements\required_not" List.ItemID="1143468945">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="427164520">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11217632" />
 					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="230525992">
+						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-1134979519">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<enum name="unit_type" value="king" />
@@ -729,11 +701,11 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="required" value="requirements\required_not" List.ItemID="-180673754">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="-441314867">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11228502" />
 					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="1059815674">
+						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="2125565159">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<enum name="unit_type" value="animal_cattle_mal" />
@@ -743,11 +715,11 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="required" value="requirements\required_not" List.ItemID="-1666231638">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="-2033522333">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11230181" />
 					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="463098685">
+						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-640769977">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<enum name="unit_type" value="mehter_ott" />
@@ -757,11 +729,11 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="required" value="requirements\required_not" List.ItemID="-822416162">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="1364333764">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11259195" />
 					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="-2133797619">
+						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="1930783036">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<enum name="unit_type" value="bannerman_samurai_jpn" />
@@ -771,11 +743,11 @@
 						</template_reference>
 					</list>
 				</template_reference>
-				<template_reference name="required" value="requirements\required_not" List.ItemID="-898082985">
+				<template_reference name="required" value="requirements\required_not" List.ItemID="-1740763951">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11259196" />
 					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="1291857492">
+						<template_reference name="required" value="requirements\required_unit_type" List.ItemID="1245096567">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
 							<enum name="unit_type" value="hero" />
@@ -869,7 +841,7 @@
 			<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\abilities\ability_conversion_faith" />
 			<int name="default_command_additional_rally_weight_modifier" value="0" />
 		</group>
-		<uniqueid name="pbgid" value="2035316" />
+		<uniqueid name="pbgid" value="1073741836" />
 		<instance_reference name="parent_pbg" value="" />
 	</variant>
 </instance>
