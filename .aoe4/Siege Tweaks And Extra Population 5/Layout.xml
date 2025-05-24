@@ -8,18 +8,17 @@
     </LayoutAnchorablePaneGroup>
     <LayoutPanel Orientation="Vertical">
       <LayoutDocumentPane>
-        <LayoutDocument Title="mod.rdo" ContentId="Reflect|Essence.Editor.ReflectEditor.Controls.DefaultReflectControlActivator|0x6389053C33741C4F" LastActivationTimeStamp="05/24/2025 16:24:28" />
-        <LayoutDocument Title="mod.png" ContentId="FileName|Image|assets\mod.png" ToolTip="C:\Users\XPS\OneDrive\Documents\Age of Empires iv files\Siege Tweaks And Extra Population 5\assets\mod.png" LastActivationTimeStamp="05/18/2025 15:03:01" />
-        <LayoutDocument Title="ebps" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ebps" LastActivationTimeStamp="05/24/2025 18:09:13" />
-        <LayoutDocument Title="abilities" ContentId="Category|abilities" LastActivationTimeStamp="05/24/2025 18:08:56" />
-        <LayoutDocument Title="sbps" ContentId="Category|sbps" LastActivationTimeStamp="05/24/2025 18:09:08" />
+        <LayoutDocument Title="ability_category" ContentId="Category|ability_category" LastActivationTimeStamp="05/24/2025 19:18:24" />
+        <LayoutDocument Title="abilities" ContentId="Category|abilities" LastActivationTimeStamp="05/24/2025 19:18:34" />
+        <LayoutDocument Title="ebps" IsSelected="True" IsLastFocusedDocument="True" ContentId="Category|ebps" LastActivationTimeStamp="05/24/2025 19:46:40" />
+        <LayoutDocument Title="sbps" ContentId="Category|sbps" LastActivationTimeStamp="05/24/2025 19:40:20" />
       </LayoutDocumentPane>
       <LayoutAnchorablePane Id="1b84d0aa-3fd1-4781-909d-fa3e4b760d6d" Name="anchorablesPane" DockHeight="300">
-        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Output" ContentId="Output" LastActivationTimeStamp="05/16/2025 23:07:34" />
+        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Output" IsSelected="True" ContentId="Output" LastActivationTimeStamp="05/24/2025 18:43:05" />
         <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Error List" ContentId="ErrorList" LastActivationTimeStamp="05/18/2025 20:28:59" />
         <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Object Browser" ContentId="ScenarioEditor.ObjectBrowser" LastActivationTimeStamp="04/26/2025 08:00:35" />
         <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Find References Results 1" ContentId="FindReferencesResults1" LastActivationTimeStamp="05/23/2025 22:16:23" />
-        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Find 'archbishop'" IsSelected="True" ContentId="FindResults" LastActivationTimeStamp="05/24/2025 17:15:11" />
+        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Find 'archbishop'" ContentId="FindResults" LastActivationTimeStamp="05/24/2025 17:15:11" />
       </LayoutAnchorablePane>
     </LayoutPanel>
     <LayoutAnchorablePaneGroup Orientation="Vertical" DockWidth="74" DockHeight="200">

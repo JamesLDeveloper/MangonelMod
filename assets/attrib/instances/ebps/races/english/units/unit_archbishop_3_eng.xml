@@ -6,13 +6,13 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="-496305047" List.ParentItemID="-496305047">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_heal_aura_smaller_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" overrideParent="True" List.ItemID="-92576590" List.ListAction="Append" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_attack_speed_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-1305948091" List.ListAction="Append" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_formation_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-325163107" List.ListAction="Append" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_range_armor_buff_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-80568490" List.ListAction="Append" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_formation_heal_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="434091908" List.ListAction="Append" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_mass_heal_passive_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="462202812" List.ListAction="Append" />
-				<instance_reference name="ability" value="abilities\timed_abilities\english\archbishop_conversion_faith_2_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="536268808" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_heal_aura_smaller_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" overrideParent="True" List.ItemID="897061398" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_attack_speed_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="1748340518" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_formation_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-198092389" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_range_armor_buff_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-837208075" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_formation_heal_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="1380495395" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_mass_heal_passive_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-1180483098" List.ListAction="Append" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\ottoman\monk_formation_heal_ott" List.ItemID="932489513" List.ListAction="Append" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="-226814690" List.ParentItemID="-226814690">
@@ -42,13 +42,13 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1376601539" List.ParentItemID="1376601539">
 			<list name="race_type_list" overrideParent="True">
-				<instance_reference name="race_type" value="racebps\english" List.ItemID="570026755" />
+				<instance_reference name="race_type" value="racebps\english" List.ItemID="-1940670195" />
 			</list>
 		</template_reference>
-		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-721197455" List.ListAction="Append">
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-743685613" List.ListAction="Append">
 			<list name="tier_group_list" overrideParent="True">
-				<list name="tier_group" overrideParent="True" List.ItemID="-1509462089">
-					<group name="tier" List.ItemID="1899225128">
+				<list name="tier_group" overrideParent="True" List.ItemID="953439914">
+					<group name="tier" List.ItemID="-388446793">
 						<list name="tier_requirements" overrideParent="True">
 						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier3_monk_eng" />
@@ -68,7 +68,7 @@
 						</template_reference>
 						<string name="inventory_category_to_refresh_on_tier_up" value="" />
 					</group>
-					<group name="tier" List.ItemID="178206417">
+					<group name="tier" List.ItemID="876953160">
 						<list name="tier_requirements" overrideParent="True">
 						</list>
 						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier4_monk_eng" />
@@ -92,7 +92,7 @@
 			</list>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073741827" />
+	<uniqueid name="pbgid" value="1073741837" />
 	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_monk_3" />
 	<variant name="campaign">
 		<list name="extensions">
@@ -111,11 +111,11 @@
 			</template_reference>
 			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1329771098" List.ParentItemID="1329771098">
 				<list name="race_type_list" overrideParent="True">
-					<instance_reference name="race_type" value="racebps\english" List.ItemID="-1804736416" />
+					<instance_reference name="race_type" value="racebps\english" List.ItemID="-774854166" />
 				</list>
 				<list name="unit_type_list">
-					<enum name="unit_type" value="land_military" List.ItemID="-871497117" List.ListAction="Append" />
-					<enum name="unit_type" value="find_non_siege_land_military" List.ItemID="-163894349" List.ListAction="Append" />
+					<enum name="unit_type" value="land_military" List.ItemID="-264745485" List.ListAction="Append" />
+					<enum name="unit_type" value="find_non_siege_land_military" List.ItemID="-823436875" List.ListAction="Append" />
 				</list>
 			</template_reference>
 			<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="234054901" List.ParentItemID="234054901">
@@ -133,10 +133,10 @@
 					</group>
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-351566201" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="205272309" List.ListAction="Append">
 				<list name="tier_group_list" overrideParent="True">
-					<list name="tier_group" overrideParent="True" List.ItemID="-130348481">
-						<group name="tier" List.ItemID="114846072">
+					<list name="tier_group" overrideParent="True" List.ItemID="-1736499216">
+						<group name="tier" List.ItemID="-2038652390">
 							<list name="tier_requirements" overrideParent="True">
 							</list>
 							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier3_monk_eng" />
@@ -156,7 +156,7 @@
 							</template_reference>
 							<string name="inventory_category_to_refresh_on_tier_up" value="" />
 						</group>
-						<group name="tier" List.ItemID="-1310067406">
+						<group name="tier" List.ItemID="-229082049">
 							<list name="tier_requirements" overrideParent="True">
 							</list>
 							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier4_monk_eng" />
@@ -180,7 +180,7 @@
 				</list>
 			</template_reference>
 		</list>
-		<uniqueid name="pbgid" value="1073741827" />
+		<uniqueid name="pbgid" value="1073741837" />
 		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_monk_3" />
 	</variant>
 	<variant name="xp3">
@@ -200,13 +200,13 @@
 			</template_reference>
 			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1376601539" List.ParentItemID="1376601539">
 				<list name="race_type_list" overrideParent="True">
-					<instance_reference name="race_type" value="racebps\english" List.ItemID="-1007392164" />
+					<instance_reference name="race_type" value="racebps\english" List.ItemID="218889748" />
 				</list>
 			</template_reference>
-			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="1296700375" List.ListAction="Append">
+			<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="11371226" List.ListAction="Append">
 				<list name="tier_group_list" overrideParent="True">
-					<list name="tier_group" overrideParent="True" List.ItemID="-1214508270">
-						<group name="tier" List.ItemID="-1538393088">
+					<list name="tier_group" overrideParent="True" List.ItemID="1296847538">
+						<group name="tier" List.ItemID="467596957">
 							<list name="tier_requirements" overrideParent="True">
 							</list>
 							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier3_monk_eng" />
@@ -226,7 +226,7 @@
 							</template_reference>
 							<string name="inventory_category_to_refresh_on_tier_up" value="" />
 						</group>
-						<group name="tier" List.ItemID="-547960152">
+						<group name="tier" List.ItemID="-949613924">
 							<list name="tier_requirements" overrideParent="True">
 							</list>
 							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\english\units\tier4_monk_eng" />
@@ -250,7 +250,7 @@
 				</list>
 			</template_reference>
 		</list>
-		<uniqueid name="pbgid" value="1073741827" />
+		<uniqueid name="pbgid" value="1073741837" />
 		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_monk_3" />
 	</variant>
 </instance>

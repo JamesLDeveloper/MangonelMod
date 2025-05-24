@@ -219,6 +219,14 @@
 		<bool name="can_passive_ability_create_formation_squad_group" value="False" />
 		<bool name="can_cast_again_whilst_pending" value="False" />
 		<list name="float_properties">
+			<template_reference name="float" value="abilitybag_float_property" List.ItemID="-194318834">
+				<float name="value" value="200" />
+				<enum name="id" value="heal" />
+			</template_reference>
+			<template_reference name="float" value="abilitybag_float_property" List.ItemID="201153816">
+				<float name="value" value="300" />
+				<enum name="id" value="modifier" />
+			</template_reference>
 		</list>
 		<list name="int_properties">
 		</list>

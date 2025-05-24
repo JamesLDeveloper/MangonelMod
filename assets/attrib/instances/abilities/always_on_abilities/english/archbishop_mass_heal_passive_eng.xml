@@ -115,7 +115,7 @@
 		<list name="ui_contextual_info">
 		</list>
 		<locstring name="ui_usage_txt" value="0" />
-		<bool name="validate_actions" value="True" />
+		<bool name="validate_actions" value="False" />
 		<list name="requirements">
 		</list>
 		<enum name="ability_super" value="tp_none" />

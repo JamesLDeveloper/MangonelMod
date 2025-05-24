@@ -5,3 +5,5 @@
 4,,,help_text,,,Attempts to convert a single enemy unit within range of this Archbishop to your control.
 5,,,screen_name,,,Archbishop Healing Aura
 6,,,screen_name,,,Archbishop Attack Speed Aura
+7,,,screen_name,,,Archbishop
+8,,,screen_name_short,,,Archbishop

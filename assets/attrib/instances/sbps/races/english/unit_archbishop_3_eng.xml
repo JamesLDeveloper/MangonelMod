@@ -1,8 +1,8 @@
 <instance version="6" description="English Monk " template="sbps">
 	<list name="extensions" overrideParent="True">
-		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="1595511596">
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-1261450578">
 			<list name="unit_list">
-				<group name="loadout_data" List.ItemID="309802453">
+				<group name="loadout_data" List.ItemID="-1281466611">
 					<float name="num" value="1" />
 					<instance_reference name="type" value="ebps\races\english\units\unit_archbishop_3_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" overrideParent="True" />
 					<list name="unit_attachments">
@@ -12,29 +12,29 @@
 			</list>
 			<float name="squad_female_chance" value="0" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="1459087044">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-818115186">
 			<list name="race_list">
-				<group name="race_data" List.ItemID="-2091200544">
+				<group name="race_data" List.ItemID="-1730519888">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11141779" />
-						<locstring name="help_text" value="3" mod="3fcab04d807b45ef919de6cf13b2b8da" overrideParent="True" />
+						<locstring name="extra_text" value="0" />
+						<locstring name="help_text" value="0" />
 						<string name="hotkey_name" value="M" />
 						<file name="icon_name" value="races\common\units\monk" />
 						<bool name="minimap_team_only" value="False" />
 						<file name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11141778" />
-						<string name="selection_group" value="monk" />
+						<locstring name="screen_name" value="7" mod="3fcab04d807b45ef919de6cf13b2b8da" overrideParent="True" />
+						<string name="selection_group" value="monk" overrideParent="True" />
 						<int name="ui_priority" value="0" />
 						<bool name="use_random_entity_speaker" value="False" />
 						<file name="portrait_name" value="" />
 						<float name="minimap_texture_scale" value="0.65" overrideParent="True" />
 						<locstring name="brief_text" value="0" />
-						<locstring name="screen_name_short" value="0" />
+						<locstring name="screen_name_short" value="8" mod="3fcab04d807b45ef919de6cf13b2b8da" overrideParent="True" />
 						<enum name="map_rotation_type_override" value="no_override" />
-						<bool name="show_in_build_log" value="True" />
+						<bool name="show_in_build_log" value="False" overrideParent="True" />
 						<file name="symbol_icon_name" value="" />
 						<string name="cover_level_icon_postfix" value="" />
 						<bool name="hide_ucs" value="False" />
@@ -93,11 +93,11 @@
 				</group>
 			</list>
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_modifier_ext" List.ItemID="1712937551">
+		<template_reference name="squadexts" value="sbpextensions\squad_modifier_ext" List.ItemID="497107681">
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1597108008">
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1483472120">
 			<list name="requirement_table">
-				<template_reference name="required" value="requirements\required_squad" List.ItemID="284923693">
+				<template_reference name="required" value="requirements\required_squad" List.ItemID="-1940878853">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="0" />
 					<float name="max_squad_cap" value="1" />
@@ -110,7 +110,7 @@
 			</list>
 			<state_tree_node name="requirement_statetree" value="" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="2091119079">
+		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="-760038581">
 			<float name="heavy_weapon_setup_delay" value="999" />
 			<float name="reaction_delay_seconds" value="25" />
 			<float name="reveal_self_attacker_time" value="0" />
@@ -168,32 +168,32 @@
 			<bool name="can_be_tied_up" value="False" />
 			<bool name="attack_move_command_requires_valid_range" value="False" overrideParent="True" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_holdable_ext" List.ItemID="-1212042254">
+		<template_reference name="squadexts" value="sbpextensions\squad_holdable_ext" List.ItemID="-1543528120">
 			<list name="modifier_table">
 			</list>
 			<state_tree_node name="hold_target_requirement" value="" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-1890561796">
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="1552638970">
 			<list name="abilities" overrideParent="True">
-				<instance_reference name="ability" value="abilities\modal_abilities\core\pickup_relic" List.ItemID="-91278540" />
-				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_deposit_relic" List.ItemID="1996167842" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_auto_heal_toggle" List.ItemID="-830533513" />
-				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_heal_target" List.ItemID="427306013" />
-				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_drop_relic" List.ItemID="-2096140699" />
-				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_remove_relic" List.ItemID="1523191937" />
-				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="-744035466" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="284463268" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="-155500230" />
-				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="-1714545431" />
-				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_capture_holy_site" List.ItemID="1420721112" />
-				<instance_reference name="ability" value="abilities\timed_abilities\english\archbishop_conversion_faith_2_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" overrideParent="True" List.ItemID="359516873" />
-				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\archbishop_conversion" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="516770676" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_heal_aura_smaller_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="1035310847" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_attack_speed_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-1904676676" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_formation_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-1167787013" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_range_armor_buff_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-1281165549" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_formation_heal_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-844284402" />
-				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_mass_heal_passive_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="385806056" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\pickup_relic" List.ItemID="-1913632865" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_deposit_relic" List.ItemID="820107292" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_auto_heal_toggle" List.ItemID="1018186558" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_heal_target" List.ItemID="605763259" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_drop_relic" List.ItemID="-1800961852" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_remove_relic" List.ItemID="-1148608079" />
+				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="955069704" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="-1729619864" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="1237652306" />
+				<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="1596805389" />
+				<instance_reference name="ability" value="abilities\modal_abilities\core\monk_capture_holy_site" List.ItemID="431409120" />
+				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\archbishop_conversion" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="1633385697" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_heal_aura_smaller_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="1790181502" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_attack_speed_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="-1512112243" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_formation_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="834316944" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_range_armor_buff_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="272837402" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_formation_heal_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="580902567" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\english\archbishop_mass_heal_passive_eng" mod="3fcab04d807b45ef919de6cf13b2b8da" List.ItemID="497555501" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\ottoman\monk_formation_heal_ott" List.ItemID="2013227099" />
 			</list>
 			<int name="ui_combine_priority" value="0" />
 			<group name="squad_orders">
@@ -265,18 +265,18 @@
 				</group>
 			</group>
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="515478716">
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="881959695">
 			<list name="squad_type_list">
-				<enum name="squad_type" value="military" List.ItemID="1438461533" />
-				<enum name="squad_type" value="monk" List.ItemID="-233590123" />
-				<enum name="squad_type" value="scar_age3" List.ItemID="281434919" />
-				<enum name="squad_type" value="scar_monk" List.ItemID="-1983860360" />
+				<enum name="squad_type" value="military" List.ItemID="-1269161845" />
+				<enum name="squad_type" value="monk" List.ItemID="-677468981" />
+				<enum name="squad_type" value="scar_age3" List.ItemID="1746364868" />
+				<enum name="squad_type" value="scar_monk" List.ItemID="-602097952" />
 			</list>
 			<list name="squad_race_type_list" overrideParent="True">
-				<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="-973876320" />
+				<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="-1581516499" />
 			</list>
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="1951423029">
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-1640747185">
 			<string name="squad_speaker_code" value="monk" />
 			<group name="squad_speech_parameters">
 				<string name="squad_class_code" value="non_military" overrideParent="True" />
@@ -287,13 +287,13 @@
 			<int name="importance" value="3" />
 			<bool name="is_idle_battle_chatter_enabled" value="False" />
 			<list name="age_mapping">
-				<int name="age_number" value="3" List.ItemID="-2004766905" />
-				<int name="age_number" value="3" List.ItemID="-324720008" />
-				<int name="age_number" value="3" List.ItemID="915794398" />
-				<int name="age_number" value="4" List.ItemID="1069969063" />
+				<int name="age_number" value="3" List.ItemID="-1408800256" />
+				<int name="age_number" value="3" List.ItemID="1810389065" />
+				<int name="age_number" value="3" List.ItemID="-1895369591" />
+				<int name="age_number" value="4" List.ItemID="-509568610" />
 			</list>
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="1465443839">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-1918899575">
 			<enum_table name="QueryTree_States">
 				<state_tree_node name="squad_state_idle" value="unit_squad_query\Idle" />
 				<state_tree_node name="squad_state_move" value="unit_squad_query\Move" />
@@ -313,13 +313,13 @@
 			<bool name="browsable_in_editor" value="True" overrideParent="True" />
 			<bool name="can_be_controlled" value="True" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_command_forwarding_ext" List.ItemID="-1550440">
+		<template_reference name="squadexts" value="sbpextensions\squad_command_forwarding_ext" List.ItemID="-2038109098">
 			<instance_reference name="default_command_weight" value="default_command_weight\default" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="-387662735">
+		<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="1799418312">
 			<instance_reference name="schema" value="statemodel_schema\units\monk" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="-300580374">
+		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="-732234642">
 			<list name="rtpc_events">
 			</list>
 			<list name="sound_banks">
@@ -335,28 +335,28 @@
 			<int name="music_importance" value="15" overrideParent="True" />
 			<bool name="is_dynamic_audio_object" value="True" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="2123028975">
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1889862055">
 			<float name="desired_protection_level_in_formation" value="9" />
 			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_capture_strategic_point_ext" List.ItemID="-1116809575">
+		<template_reference name="squadexts" value="sbpextensions\squad_capture_strategic_point_ext" List.ItemID="2040588172">
 			<float name="capture_distance" value="10" />
 			<float name="capture_rate_multiplier" value="1" overrideParent="True" />
 			<float name="revert_rate_multiplier" value="1" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_game_mode_ext" List.ItemID="-1520867508">
+		<template_reference name="squadexts" value="sbpextensions\squad_game_mode_ext" List.ItemID="-1550868658">
 			<group name="capture_point">
 				<float name="capture_rate_multiplier" value="1" />
 			</group>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073741826" />
+	<uniqueid name="pbgid" value="1073741838" />
 	<instance_reference name="parent_pbg" value="sbps\races\core\unit_monk_3" />
 	<variant name="campaign">
 		<list name="extensions" overrideParent="True">
-			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-925919522">
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="849625704">
 				<list name="unit_list">
-					<group name="loadout_data" List.ItemID="-7376660">
+					<group name="loadout_data" List.ItemID="-558551359">
 						<float name="num" value="1" />
 						<instance_reference name="type" value="ebps\races\english\units\unit_monk_3_eng" />
 						<list name="unit_attachments">
@@ -366,20 +366,20 @@
 				</list>
 				<float name="squad_female_chance" value="0" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-1239313982">
+			<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="1605380940">
 				<list name="race_list">
-					<group name="race_data" List.ItemID="2129958624">
+					<group name="race_data" List.ItemID="-176861737">
 						<group name="info">
 							<bool name="allow_spawner_production" value="False" />
-							<locstring name="extra_text" value="11141779" />
-							<locstring name="help_text" value="11141784" />
+							<locstring name="extra_text" value="0" />
+							<locstring name="help_text" value="0" />
 							<string name="hotkey_name" value="M" />
 							<file name="icon_name" value="races\common\units\monk" />
 							<bool name="minimap_team_only" value="False" />
 							<file name="minimap_texture" value="" />
 							<instance_reference name="modal_ability" value="" />
 							<bool name="reveal_for_decryption" value="True" />
-							<locstring name="screen_name" value="11141778" />
+							<locstring name="screen_name" value="0" />
 							<string name="selection_group" value="monk" />
 							<int name="ui_priority" value="0" />
 							<bool name="use_random_entity_speaker" value="False" />
@@ -447,14 +447,14 @@
 					</group>
 				</list>
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_modifier_ext" List.ItemID="1961172892">
+			<template_reference name="squadexts" value="sbpextensions\squad_modifier_ext" List.ItemID="1580858846">
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1558280289">
+			<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-1037229960">
 				<list name="requirement_table">
 				</list>
 				<state_tree_node name="requirement_statetree" value="" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="603968772">
+			<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="-942835180">
 				<float name="heavy_weapon_setup_delay" value="999" />
 				<float name="reaction_delay_seconds" value="25" />
 				<float name="reveal_self_attacker_time" value="0" />
@@ -512,24 +512,24 @@
 				<bool name="can_be_tied_up" value="False" />
 				<bool name="attack_move_command_requires_valid_range" value="True" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_holdable_ext" List.ItemID="816218454">
+			<template_reference name="squadexts" value="sbpextensions\squad_holdable_ext" List.ItemID="-423347588">
 				<list name="modifier_table">
 				</list>
 				<state_tree_node name="hold_target_requirement" value="" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="1628206861">
+			<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-78872824">
 				<list name="abilities" overrideParent="True">
-					<instance_reference name="ability" value="abilities\modal_abilities\core\pickup_relic" List.ItemID="-1193774671" />
-					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_deposit_relic" List.ItemID="-864831403" />
-					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_auto_heal_toggle" List.ItemID="-1483988922" />
-					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_heal_target" List.ItemID="1601639279" />
-					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_drop_relic" List.ItemID="-1018017940" />
-					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_remove_relic" List.ItemID="1389405784" />
-					<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="-1686683465" />
-					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="1581037106" />
-					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="-264125261" />
-					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="-448412469" />
-					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_capture_holy_site" List.ItemID="-2076990756" />
+					<instance_reference name="ability" value="abilities\modal_abilities\core\pickup_relic" List.ItemID="-1758230049" />
+					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_deposit_relic" List.ItemID="-811030026" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_auto_heal_toggle" List.ItemID="1449225750" />
+					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_heal_target" List.ItemID="-629606604" />
+					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_drop_relic" List.ItemID="-1888086394" />
+					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_remove_relic" List.ItemID="882042069" />
+					<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="1278426553" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="1099330952" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="-1513055727" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="508647612" />
+					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_capture_holy_site" List.ItemID="1734028008" />
 				</list>
 				<int name="ui_combine_priority" value="0" />
 				<group name="squad_orders">
@@ -601,18 +601,18 @@
 					</group>
 				</group>
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-1207732608">
+			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-1857289508">
 				<list name="squad_type_list">
-					<enum name="squad_type" value="military" List.ItemID="1173673115" />
-					<enum name="squad_type" value="monk" List.ItemID="603605636" />
-					<enum name="squad_type" value="scar_age3" List.ItemID="-1918929758" />
-					<enum name="squad_type" value="scar_monk" List.ItemID="1744651274" />
+					<enum name="squad_type" value="military" List.ItemID="1845665454" />
+					<enum name="squad_type" value="monk" List.ItemID="-1736929476" />
+					<enum name="squad_type" value="scar_age3" List.ItemID="881718771" />
+					<enum name="squad_type" value="scar_monk" List.ItemID="733849602" />
 				</list>
 				<list name="squad_race_type_list" overrideParent="True">
-					<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="-1652798145" />
+					<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="434086405" />
 				</list>
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-1151795865">
+			<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-1166572102">
 				<string name="squad_speaker_code" value="monk" />
 				<group name="squad_speech_parameters">
 					<string name="squad_class_code" value="non_military" overrideParent="True" />
@@ -623,13 +623,13 @@
 				<int name="importance" value="3" />
 				<bool name="is_idle_battle_chatter_enabled" value="False" />
 				<list name="age_mapping">
-					<int name="age_number" value="3" List.ItemID="615714213" />
-					<int name="age_number" value="3" List.ItemID="-231966741" />
-					<int name="age_number" value="3" List.ItemID="912829627" />
-					<int name="age_number" value="4" List.ItemID="139934772" />
+					<int name="age_number" value="3" List.ItemID="1088765656" />
+					<int name="age_number" value="3" List.ItemID="416526147" />
+					<int name="age_number" value="3" List.ItemID="631736910" />
+					<int name="age_number" value="4" List.ItemID="-1189552127" />
 				</list>
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-1933228133">
+			<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2111487312">
 				<enum_table name="QueryTree_States">
 					<state_tree_node name="squad_state_idle" value="campaignMod_unit_squad_query\Idle" />
 					<state_tree_node name="squad_state_move" value="campaignMod_unit_squad_query\Move" />
@@ -649,13 +649,13 @@
 				<bool name="browsable_in_editor" value="True" />
 				<bool name="can_be_controlled" value="True" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_command_forwarding_ext" List.ItemID="-635089494">
+			<template_reference name="squadexts" value="sbpextensions\squad_command_forwarding_ext" List.ItemID="399801648">
 				<instance_reference name="default_command_weight" value="default_command_weight\default" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="1478619330">
+			<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="505442079">
 				<instance_reference name="schema" value="statemodel_schema\units\monk" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="897986861">
+			<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="-1665823880">
 				<list name="rtpc_events">
 				</list>
 				<list name="sound_banks">
@@ -671,24 +671,24 @@
 				<int name="music_importance" value="15" overrideParent="True" />
 				<bool name="is_dynamic_audio_object" value="True" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="834460881">
+			<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="896524956">
 				<float name="desired_protection_level_in_formation" value="9" />
 				<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_capture_strategic_point_ext" List.ItemID="432199865">
+			<template_reference name="squadexts" value="sbpextensions\squad_capture_strategic_point_ext" List.ItemID="-1553634">
 				<float name="capture_distance" value="10" />
 				<float name="capture_rate_multiplier" value="1" overrideParent="True" />
 				<float name="revert_rate_multiplier" value="1" />
 			</template_reference>
 		</list>
-		<uniqueid name="pbgid" value="1073741826" />
+		<uniqueid name="pbgid" value="1073741838" />
 		<instance_reference name="parent_pbg" value="sbps\races\core\unit_monk_3" />
 	</variant>
 	<variant name="xp3">
 		<list name="extensions" overrideParent="True">
-			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="1131051020">
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-92560784">
 				<list name="unit_list">
-					<group name="loadout_data" List.ItemID="-1713783630">
+					<group name="loadout_data" List.ItemID="1940065709">
 						<float name="num" value="1" />
 						<instance_reference name="type" value="ebps\races\english\units\unit_monk_3_eng" />
 						<list name="unit_attachments">
@@ -698,20 +698,20 @@
 				</list>
 				<float name="squad_female_chance" value="0" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="62840266">
+			<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-1550415306">
 				<list name="race_list">
-					<group name="race_data" List.ItemID="-1807206726">
+					<group name="race_data" List.ItemID="-1980861639">
 						<group name="info">
 							<bool name="allow_spawner_production" value="False" />
-							<locstring name="extra_text" value="11141779" />
-							<locstring name="help_text" value="11141784" />
+							<locstring name="extra_text" value="0" />
+							<locstring name="help_text" value="0" />
 							<string name="hotkey_name" value="M" />
 							<file name="icon_name" value="races\common\units\monk" />
 							<bool name="minimap_team_only" value="False" />
 							<file name="minimap_texture" value="" />
 							<instance_reference name="modal_ability" value="" />
 							<bool name="reveal_for_decryption" value="True" />
-							<locstring name="screen_name" value="11141778" />
+							<locstring name="screen_name" value="0" />
 							<string name="selection_group" value="monk" />
 							<int name="ui_priority" value="0" />
 							<bool name="use_random_entity_speaker" value="False" />
@@ -779,14 +779,14 @@
 					</group>
 				</list>
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_modifier_ext" List.ItemID="-433364508">
+			<template_reference name="squadexts" value="sbpextensions\squad_modifier_ext" List.ItemID="-1346336735">
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-1481947310">
+			<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-419549573">
 				<list name="requirement_table">
 				</list>
 				<state_tree_node name="requirement_statetree" value="" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="2009462820">
+			<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext" List.ItemID="292030220">
 				<float name="heavy_weapon_setup_delay" value="999" />
 				<float name="reaction_delay_seconds" value="25" />
 				<float name="reveal_self_attacker_time" value="0" />
@@ -844,25 +844,25 @@
 				<bool name="can_be_tied_up" value="False" />
 				<bool name="attack_move_command_requires_valid_range" value="False" overrideParent="True" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_holdable_ext" List.ItemID="1930367763">
+			<template_reference name="squadexts" value="sbpextensions\squad_holdable_ext" List.ItemID="79972348">
 				<list name="modifier_table">
 				</list>
 				<state_tree_node name="hold_target_requirement" value="" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="323813019">
+			<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="1769439554">
 				<list name="abilities" overrideParent="True">
-					<instance_reference name="ability" value="abilities\modal_abilities\core\pickup_relic" List.ItemID="-638259924" />
-					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_deposit_relic" List.ItemID="1599623683" />
-					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_auto_heal_toggle" List.ItemID="-2039556871" />
-					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_heal_target" List.ItemID="-1270908329" />
-					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_drop_relic" List.ItemID="807242551" />
-					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_remove_relic" List.ItemID="-281296265" />
-					<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="436964931" />
-					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="1079336418" />
-					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="944874487" />
-					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="1318649267" />
-					<instance_reference name="ability" value="abilities\timed_abilities\civ_core\monk_conversion" List.ItemID="1152386924" />
-					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_capture_holy_site" List.ItemID="-625654703" />
+					<instance_reference name="ability" value="abilities\modal_abilities\core\pickup_relic" List.ItemID="-391380070" />
+					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_deposit_relic" List.ItemID="-1017828911" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_auto_heal_toggle" List.ItemID="1000019728" />
+					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_heal_target" List.ItemID="-99607936" />
+					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_statetree_drop_relic" List.ItemID="-710555253" />
+					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_remove_relic" List.ItemID="-929668741" />
+					<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_unit_death" List.ItemID="650535631" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_line" List.ItemID="1254588136" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_spread" List.ItemID="185872711" />
+					<instance_reference name="ability" value="abilities\toggle_abilities\civ_core\core_formation_wedge" List.ItemID="943592824" />
+					<instance_reference name="ability" value="abilities\timed_abilities\civ_core\monk_conversion" List.ItemID="903291662" />
+					<instance_reference name="ability" value="abilities\modal_abilities\core\monk_capture_holy_site" List.ItemID="1343697570" />
 				</list>
 				<int name="ui_combine_priority" value="0" />
 				<group name="squad_orders">
@@ -934,18 +934,18 @@
 					</group>
 				</group>
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-2033053880">
+			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="1829440500">
 				<list name="squad_type_list">
-					<enum name="squad_type" value="military" List.ItemID="-1647834502" />
-					<enum name="squad_type" value="monk" List.ItemID="1215252042" />
-					<enum name="squad_type" value="scar_age3" List.ItemID="-1449605616" />
-					<enum name="squad_type" value="scar_monk" List.ItemID="-800880302" />
+					<enum name="squad_type" value="military" List.ItemID="1996785083" />
+					<enum name="squad_type" value="monk" List.ItemID="-177202337" />
+					<enum name="squad_type" value="scar_age3" List.ItemID="313919798" />
+					<enum name="squad_type" value="scar_monk" List.ItemID="479913831" />
 				</list>
 				<list name="squad_race_type_list" overrideParent="True">
-					<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="-1700387700" />
+					<instance_reference name="squad_race_type" value="racebps\english" List.ItemID="-1824984478" />
 				</list>
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="1652149800">
+			<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-628602584">
 				<string name="squad_speaker_code" value="monk" />
 				<group name="squad_speech_parameters">
 					<string name="squad_class_code" value="non_military" overrideParent="True" />
@@ -956,13 +956,13 @@
 				<int name="importance" value="3" />
 				<bool name="is_idle_battle_chatter_enabled" value="False" />
 				<list name="age_mapping">
-					<int name="age_number" value="3" List.ItemID="1398761852" />
-					<int name="age_number" value="3" List.ItemID="-1894620632" />
-					<int name="age_number" value="3" List.ItemID="2096895018" />
-					<int name="age_number" value="4" List.ItemID="-922044408" />
+					<int name="age_number" value="3" List.ItemID="-583370237" />
+					<int name="age_number" value="3" List.ItemID="622710379" />
+					<int name="age_number" value="3" List.ItemID="725963695" />
+					<int name="age_number" value="4" List.ItemID="1159151806" />
 				</list>
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="1734292169">
+			<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="1199939200">
 				<enum_table name="QueryTree_States">
 					<state_tree_node name="squad_state_idle" value="xp3_unit_squad_query\Idle" />
 					<state_tree_node name="squad_state_move" value="xp3_unit_squad_query\Move" />
@@ -982,13 +982,13 @@
 				<bool name="browsable_in_editor" value="True" overrideParent="True" />
 				<bool name="can_be_controlled" value="True" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_command_forwarding_ext" List.ItemID="-59258335">
+			<template_reference name="squadexts" value="sbpextensions\squad_command_forwarding_ext" List.ItemID="-1990575377">
 				<instance_reference name="default_command_weight" value="default_command_weight\default" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="827984020">
+			<template_reference name="squadexts" value="sbpextensions\squad_statemodel_ext" List.ItemID="-1966688339">
 				<instance_reference name="schema" value="statemodel_schema\units\monk" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="1165403048">
+			<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="-1431287065">
 				<list name="rtpc_events">
 				</list>
 				<list name="sound_banks">
@@ -1004,17 +1004,17 @@
 				<int name="music_importance" value="15" overrideParent="True" />
 				<bool name="is_dynamic_audio_object" value="True" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="1199775502">
+			<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="400346292">
 				<float name="desired_protection_level_in_formation" value="9" />
 				<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
 			</template_reference>
-			<template_reference name="squadexts" value="sbpextensions\squad_capture_strategic_point_ext" List.ItemID="722987508">
+			<template_reference name="squadexts" value="sbpextensions\squad_capture_strategic_point_ext" List.ItemID="-464218857">
 				<float name="capture_distance" value="10" />
 				<float name="capture_rate_multiplier" value="1" overrideParent="True" />
 				<float name="revert_rate_multiplier" value="1" />
 			</template_reference>
 		</list>
-		<uniqueid name="pbgid" value="1073741826" />
+		<uniqueid name="pbgid" value="1073741838" />
 		<instance_reference name="parent_pbg" value="sbps\races\core\unit_monk_3" />
 	</variant>
 </instance>
